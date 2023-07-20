@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soma de Dados das Equipes</title>
+    <style>
+        /* Estilos CSS */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .result-json {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px;
+            font-family: "Courier New", monospace;
+            text-align: left;
+            margin-top: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .neumorphism {
+            background: #f0f0f0;
+            border-radius: 8px;
+            padding: 8px;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1),
+                        -4px -4px 8px rgba(255, 255, 255, 0.5);
+        }
+
+        .json {
+            white-space: pre-wrap; /* Manter quebra de linha */
+        }
+
+        #jsonTable {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        #jsonTable th, #jsonTable td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #jsonTable th {
+            background-color: #f0f0f0;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+</head>
+<body>
+    <h1 class="header">Soma de Dados das Equipes</h1>
+    <div class="container neumorphism">
+        <label for="leagueSelect">Selecione a Liga:</label>
+        <select id="leagueSelect" class="neumorphism" onchange="loadTeams()">
+            <option value="">Selecione a Liga</option>
+            <!-- As opções serão preenchidas dinamicamente -->
+        </select>
+
+        <label for="teamSelect1">Selecione o Time 1:</label>
+        <select id="teamSelect1" class="neumorphism" onchange="calculateSum()">
+            <option value="">Selecione o Time 1</option>
+            <!-- As opções serão preenchidas dinamicamente -->
+        </select>
+
+        <label for="teamSelect2">Selecione o Time 2:</label>
+        <select id="teamSelect2" class="neumorphism" onchange="calculateSum()">
+            <option value="">Selecione o Time 2</option>
+            <!-- As opções serão preenchidas dinamicamente -->
+        </select>
+
+        <div class="result-json neumorphism">
+            <table id="jsonTable">
+                <thead>
+                    <tr>
+                        <th>Propriedade</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- As linhas da tabela serão preenchidas dinamicamente -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Função para realçar a sintaxe do JSON usando Highlight.js
+        function highlightJSON() {
+            const jsonResult = document.getElementById('jsonResult');
+            hljs.highlightBlock(jsonResult);
+        }
+
+        // Função para formatar o JSON com quebras de linha antes de exibi-lo na tabela
+        function formatJSON(jsonString) {
+            try {
+                const jsonObject = JSON.parse(jsonString);
+                return JSON.stringify(jsonObject, null, 2);
+            } catch (error) {
+                console.error('Erro ao formatar o JSON:', error);
+                return jsonString;
+            }
+        }
+
+        function loadJSON(callback) {
+            const xhr = new XMLHttpRequest();
+            xhr.overrideMimeType("application/json");
+            xhr.open('GET', 'data.json', true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status == "200") {
+                    callback(xhr.responseText);
+                }
+            };
+            xhr.send(null);
+        }
+
+        function loadTeams() {
+            const selectedLeague = document.getElementById('leagueSelect').value;
+            if (!selectedLeague) {
+                return;
+            }
+
+            loadJSON(function (response) {
+                const data = JSON.parse(response);
+                const leagueData = data.find(item => item.league === selectedLeague);
+
+                if (!leagueData) {
+                    return;
+                }
+
+                const teamSelect1 = document.getElementById('teamSelect1');
+                const teamSelect2 = document.getElementById('teamSelect2');
+                teamSelect1.innerHTML = "<option value=''>Selecione o Time 1</option>";
+                teamSelect2.innerHTML = "<option value=''>Selecione o Time 2</option>";
+
+                const teams = leagueData.teams;
+                teams.forEach(team => {
+                    teamSelect1.innerHTML += `<option value="${team.teamName}">${team.teamName}</option>`;
+                    teamSelect2.innerHTML += `<option value="${team.teamName}">${team.teamName}</option>`;
+                });
+            });
+        }
+
+        function calculateSum() {
+            const selectedLeague = document.getElementById('leagueSelect').value;
+            const selectedTeam1 = document.getElementById('teamSelect1').value;
+            const selectedTeam2 = document.getElementById('teamSelect2').value;
+
+            if (!selectedLeague || !selectedTeam1 || !selectedTeam2) {
+                return;
+            }
+
+            loadJSON(function (response) {
+                const data = JSON.parse(response);
+                const leagueData = data.find(item => item.league === selectedLeague);
+
+                if (!leagueData) {
+                    return;
+                }
+
+                const teams = leagueData.teams;
+                const team1 = teams.find(team => team.teamName === selectedTeam1);
+                const team2 = teams.find(team => team.teamName === selectedTeam2);
+
+                if (!team1 || !team2) {
+                    return;
+                }
+
+                const sumData = {
+                    "teamName": "Soma das Equipes",
+                    "mediaTorres": (parseFloat(team1.mediaTorres) + parseFloat(team2.mediaTorres)).toFixed(2),
+                    "mediaDragoes": (parseFloat(team1.mediaDragoes) + parseFloat(team2.mediaDragoes)).toFixed(2),
+                    "mediaBarons": (parseFloat(team1.mediaBarons) + parseFloat(team2.mediaBarons)).toFixed(2),
+                    "mediaDuracaoPartidas": (parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas)).toFixed(2),
+                    "ckpm": (parseFloat(team1.ckpm) + parseFloat(team2.ckpm)).toFixed(2)
+                };
+
+                const jsonTable = document.getElementById('jsonTable');
+                jsonTable.innerHTML = `
+                    <thead>
+                        <tr>
+                            <th>Propriedade</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>teamName</td><td>${sumData.teamName}</td></tr>
+                        <tr><td>mediaTorres</td><td>${sumData.mediaTorres}</td></tr>
+                        <tr><td>mediaDragoes</td><td>${sumData.mediaDragoes}</td></tr>
+                        <tr><td>mediaBarons</td><td>${sumData.mediaBarons}</td></tr>
+                        <tr><td>mediaDuracaoPartidas</td><td>${sumData.mediaDuracaoPartidas}</td></tr>
+                        <tr><td>ckpm</td><td>${sumData.ckpm}</td></tr>
+                    </tbody>
+                `;
+
+                // Realce de sintaxe usando Highlight.js
+                highlightJSON();
+            });
+        }
+
+        // Chamar a função para preencher o menu suspenso ao carregar a página
+        loadJSON(function (response) {
+            const data = JSON.parse(response);
+            const leagues = data.map(item => item.league);
+
+            const leagueSelect = document.getElementById('leagueSelect');
+            leagueSelect.innerHTML = "<option value=''>Selecione a Liga</option>";
+            leagues.forEach(league => {
+                leagueSelect.innerHTML += `<option value="${league}">${league}</option>`;
+            });
+        });
+    </script>
+</body>
+</html>
