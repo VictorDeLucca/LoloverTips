@@ -209,7 +209,7 @@
                     "AverageBarons": (parseFloat(team1.mediaBarons) + parseFloat(team2.mediaBarons)).toFixed(2),
                     "AverageTime": ((parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas))/2).toFixed(2),
                     // "AverageCKPM": ((parseFloat(team1.ckpm) + parseFloat(team2.ckpm))/2).toFixed(2),
-                    "AverageKills": (((parseFloat(team1.ckpm) + parseFloat(team2.ckpm))/2).toFixed(2) * (parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas)).toFixed(2) )/2
+                    "AverageKills": ((((parseFloat(team1.ckpm) + parseFloat(team2.ckpm))/2).toFixed(2) * (parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas)).toFixed(2) )/2).toFixed(2)
                 };
 
                 const jsonTable = document.getElementById('jsonTable');
