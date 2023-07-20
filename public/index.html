@@ -4,7 +4,6 @@
     <title>Soma de Dados das Equipes</title>
     <style>
         /* Estilos CSS */
-
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
@@ -13,18 +12,31 @@
         }
 
         .container {
-            max-width: 500px;
+            max-width: 1000px;
             margin: 0 auto;
-            background-color: #ffffff;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .header {
             text-align: center;
             color: #c3d8e0;
             margin-bottom: 20px;
+        }
+
+        .neumorphism {
+            background: #f0f0f0;
+            border-radius: 8px;
+            padding: 8px;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1),
+                        -4px -4px 8px rgba(255, 255, 255, 0.5);
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .team-data {
+            width: calc(50% - 20px);
         }
 
         label {
@@ -51,42 +63,25 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        .neumorphism {
-            background: #f0f0f0;
-            border-radius: 8px;
-            padding: 8px;
-            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1),
-                        -4px -4px 8px rgba(255, 255, 255, 0.5);
-        }
-
         .json {
-            white-space: pre-wrap; /* Manter quebra de linha */
+            white-space: pre-wrap;
         }
 
-        #jsonTable {
+        #jsonTableTeam1, #jsonTableTeam2 {
             width: 100%;
             border-collapse: collapse;
             margin-top: 10px;
         }
 
-        #jsonTable th, #jsonTable td {
+        #jsonTableTeam1 th, #jsonTableTeam1 td,
+        #jsonTableTeam2 th, #jsonTableTeam2 td {
             border: 1px solid #ccc;
             padding: 8px;
             text-align: left;
         }
 
-        #jsonTable th {
+        #jsonTableTeam1 th, #jsonTableTeam2 th {
             background-color: #f0f0f0;
-        }
-
-
-        .team-container {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .team-container .team-data {
-            width: calc(50% - 20px); /* Adjust the width as needed */
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
@@ -118,6 +113,12 @@
                 <div class="team-data">
                     <h2>Time 1 Data</h2>
                     <table id="jsonTableTeam1">
+                        <thead>
+                            <tr>
+                                <th>Attribute</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 1 -->
                         </tbody>
@@ -126,6 +127,12 @@
                 <div class="team-data">
                     <h2>Time 2 Data</h2>
                     <table id="jsonTableTeam2">
+                        <thead>
+                            <tr>
+                                <th>Attribute</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 2 -->
                         </tbody>
