@@ -204,12 +204,12 @@
                 }
 
                 const sumData = {
-                    "teamName": "Soma das Equipes",
-                    "mediaTorres": (parseFloat(team1.mediaTorres) + parseFloat(team2.mediaTorres)).toFixed(2),
-                    "mediaDragoes": (parseFloat(team1.mediaDragoes) + parseFloat(team2.mediaDragoes)).toFixed(2),
-                    "mediaBarons": (parseFloat(team1.mediaBarons) + parseFloat(team2.mediaBarons)).toFixed(2),
-                    "mediaDuracaoPartidas": (parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas)).toFixed(2),
-                    "ckpm": (parseFloat(team1.ckpm) + parseFloat(team2.ckpm)).toFixed(2)
+                    "AverageTowers": (parseFloat(team1.mediaTorres) + parseFloat(team2.mediaTorres)).toFixed(2),
+                    "AverageDragons": (parseFloat(team1.mediaDragoes) + parseFloat(team2.mediaDragoes)).toFixed(2),
+                    "AverageBarons": (parseFloat(team1.mediaBarons) + parseFloat(team2.mediaBarons)).toFixed(2),
+                    "AverageTime": (parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas)).toFixed(2),
+                    // "AverageCKPM": ((parseFloat(team1.ckpm) + parseFloat(team2.ckpm))/2).toFixed(2),
+                    "AverageKills": (((parseFloat(team1.ckpm) + parseFloat(team2.ckpm))/2).toFixed(2) * (parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas)).toFixed(2) )
                 };
 
                 const jsonTable = document.getElementById('jsonTable');
@@ -221,12 +221,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr><td>teamName</td><td>${sumData.teamName}</td></tr>
-                        <tr><td>mediaTorres</td><td>${sumData.mediaTorres}</td></tr>
-                        <tr><td>mediaDragoes</td><td>${sumData.mediaDragoes}</td></tr>
-                        <tr><td>mediaBarons</td><td>${sumData.mediaBarons}</td></tr>
-                        <tr><td>mediaDuracaoPartidas</td><td>${sumData.mediaDuracaoPartidas}</td></tr>
-                        <tr><td>ckpm</td><td>${sumData.ckpm}</td></tr>
+                        <tr><td>AverageTowers</td><td>${sumData.AverageTowers}</td></tr>
+                        <tr><td>AverageDragons</td><td>${sumData.AverageDragons}</td></tr>
+                        <tr><td>AverageBarons</td><td>${sumData.AverageBarons}</td></tr>
+                        <tr><td>AverageTime</td><td>${sumData.AverageTime}</td></tr>
+                        <tr><td>AverageKills</td><td>${sumData.AverageKills}</td></tr>
                     </tbody>
                 `;
 
