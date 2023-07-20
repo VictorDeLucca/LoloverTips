@@ -78,17 +78,24 @@
         #jsonTable th {
             background-color: #f0f0f0;
         }
+
+
+        .team-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .team-container .team-data {
+            width: calc(50% - 20px); /* Adjust the width as needed */
+        }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
 </head>
 <body>
-   
-   
-    <h1 class="header">LoLover / by DeLucca Tips </h1>
+    <h1 class="header">LoLover / by DeLucca Tips</h1>
     <div class="container neumorphism">
         <label for="leagueSelect">Selecione a Liga:</label>
-
         <select id="leagueSelect" class="neumorphism" onchange="loadTeams()">
             <option value="">Selecione a Liga</option>
             <!-- As opções serão preenchidas dinamicamente -->
@@ -107,16 +114,24 @@
         </select>
 
         <div class="result-json neumorphism">
-            <table id="jsonTable">
-                <thead>
-                    <tr>
-                        
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- As linhas da tabela serão preenchidas dinamicamente -->
-                </tbody>
-            </table>
+            <div class="team-container">
+                <div class="team-data">
+                    <h2>Time 1 Data</h2>
+                    <table id="jsonTableTeam1">
+                        <tbody>
+                            <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 1 -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="team-data">
+                    <h2>Time 2 Data</h2>
+                    <table id="jsonTableTeam2">
+                        <tbody>
+                            <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 2 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -186,7 +201,6 @@
                 return;
             }
 
-
             loadJSON(function (response) {
                 const data = JSON.parse(response);
                 const leagueData = data.find(item => item.league === selectedLeague);
@@ -203,26 +217,41 @@
                     return;
                 }
 
-                const sumData = {
-                    "AverageTowers": (parseFloat(team1.mediaTorres) + parseFloat(team2.mediaTorres)).toFixed(2),
-                    "AverageDragons": (parseFloat(team1.mediaDragoes) + parseFloat(team2.mediaDragoes)).toFixed(2),
-                    "AverageBarons": (parseFloat(team1.mediaBarons) + parseFloat(team2.mediaBarons)).toFixed(2),
-                    "AverageTime": ((parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas))/2).toFixed(2),
-                    // "AverageCKPM": ((parseFloat(team1.ckpm) + parseFloat(team2.ckpm))/2).toFixed(2),
-                    "AverageKills": ((((parseFloat(team1.ckpm) + parseFloat(team2.ckpm))/2).toFixed(2) * (parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas)).toFixed(2) )/2).toFixed(2)
+                const sumDataTeam1 = {
+                    "AverageTowers": parseFloat(team1.mediaTorres).toFixed(2),
+                    "AverageDragons": parseFloat(team1.mediaDragoes).toFixed(2),
+                    "AverageBarons": parseFloat(team1.mediaBarons).toFixed(2),
+                    "AverageTime": parseFloat(team1.mediaDuracaoPartidas).toFixed(2),
+                    "AverageKills": ((parseFloat(team1.ckpm) * parseFloat(team1.mediaDuracaoPartidas)).toFixed(2)),
                 };
 
-                const jsonTable = document.getElementById('jsonTable');
-                jsonTable.innerHTML = `
-                    <thead>
-                       
-                    </thead>
+                const sumDataTeam2 = {
+                    "AverageTowers": parseFloat(team2.mediaTorres).toFixed(2),
+                    "AverageDragons": parseFloat(team2.mediaDragoes).toFixed(2),
+                    "AverageBarons": parseFloat(team2.mediaBarons).toFixed(2),
+                    "AverageTime": parseFloat(team2.mediaDuracaoPartidas).toFixed(2),
+                    "AverageKills": ((parseFloat(team2.ckpm) * parseFloat(team2.mediaDuracaoPartidas)).toFixed(2)),
+                };
+
+                const jsonTableTeam1 = document.getElementById('jsonTableTeam1');
+                jsonTableTeam1.innerHTML = `
                     <tbody>
-                        <tr><td>AverageTowers</td><td>${sumData.AverageTowers}</td></tr>
-                        <tr><td>AverageDragons</td><td>${sumData.AverageDragons}</td></tr>
-                        <tr><td>AverageBarons</td><td>${sumData.AverageBarons}</td></tr>
-                        <tr><td>AverageTime</td><td>${sumData.AverageTime}</td></tr>
-                        <tr><td>AverageKills</td><td>${sumData.AverageKills}</td></tr>
+                        <tr><td>AverageTowers</td><td>${sumDataTeam1.AverageTowers}</td></tr>
+                        <tr><td>AverageDragons</td><td>${sumDataTeam1.AverageDragons}</td></tr>
+                        <tr><td>AverageBarons</td><td>${sumDataTeam1.AverageBarons}</td></tr>
+                        <tr><td>AverageTime</td><td>${sumDataTeam1.AverageTime}</td></tr>
+                        <tr><td>AverageKills</td><td>${sumDataTeam1.AverageKills}</td></tr>
+                    </tbody>
+                `;
+
+                const jsonTableTeam2 = document.getElementById('jsonTableTeam2');
+                jsonTableTeam2.innerHTML = `
+                    <tbody>
+                        <tr><td>AverageTowers</td><td>${sumDataTeam2.AverageTowers}</td></tr>
+                        <tr><td>AverageDragons</td><td>${sumDataTeam2.AverageDragons}</td></tr>
+                        <tr><td>AverageBarons</td><td>${sumDataTeam2.AverageBarons}</td></tr>
+                        <tr><td>AverageTime</td><td>${sumDataTeam2.AverageTime}</td></tr>
+                        <tr><td>AverageKills</td><td>${sumDataTeam2.AverageKills}</td></tr>
                     </tbody>
                 `;
 
