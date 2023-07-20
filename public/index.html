@@ -4,6 +4,7 @@
     <title>Soma de Dados das Equipes</title>
     <style>
         /* Estilos CSS */
+
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
@@ -111,7 +112,7 @@
         <div class="result-json neumorphism">
             <div class="team-container">
                 <div class="team-data">
-                    <h2>Time 1 Data</h2>
+                    <h2 id="team1Name">Time 1</h2>
                     <table id="jsonTableTeam1">
                         <thead>
                             <tr>
@@ -125,7 +126,7 @@
                     </table>
                 </div>
                 <div class="team-data">
-                    <h2>Time 2 Data</h2>
+                    <h2 id="team2Name">Time 2</h2>
                     <table id="jsonTableTeam2">
                         <thead>
                             <tr>
@@ -225,23 +226,35 @@
                 }
 
                 const sumDataTeam1 = {
-                    "AverageTowers": parseFloat(team1.mediaTorres).toFixed(2),
-                    "AverageDragons": parseFloat(team1.mediaDragoes).toFixed(2),
-                    "AverageBarons": parseFloat(team1.mediaBarons).toFixed(2),
-                    "AverageTime": parseFloat(team1.mediaDuracaoPartidas).toFixed(2),
-                    "AverageKills": ((parseFloat(team1.ckpm) * parseFloat(team1.mediaDuracaoPartidas)).toFixed(2)),
+                    "AverageTowers": (parseFloat(team1.mediaTorres) + parseFloat(team1.mediaTorres)).toFixed(2),
+                    "AverageDragons": (parseFloat(team1.mediaDragoes) + parseFloat(team1.mediaDragoes)).toFixed(2),
+                    "AverageBarons": (parseFloat(team1.mediaBarons) + parseFloat(team1.mediaBarons)).toFixed(2),
+                    "AverageTime": ((parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team1.mediaDuracaoPartidas))/2).toFixed(2),
+                    "AverageKills": ((((parseFloat(team1.ckpm) + parseFloat(team1.ckpm))/2).toFixed(2) * (parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team1.mediaDuracaoPartidas)).toFixed(2) )/2).toFixed(2)
                 };
 
                 const sumDataTeam2 = {
-                    "AverageTowers": parseFloat(team2.mediaTorres).toFixed(2),
-                    "AverageDragons": parseFloat(team2.mediaDragoes).toFixed(2),
-                    "AverageBarons": parseFloat(team2.mediaBarons).toFixed(2),
-                    "AverageTime": parseFloat(team2.mediaDuracaoPartidas).toFixed(2),
-                    "AverageKills": ((parseFloat(team2.ckpm) * parseFloat(team2.mediaDuracaoPartidas)).toFixed(2)),
+                    "AverageTowers": (parseFloat(team2.mediaTorres) + parseFloat(team2.mediaTorres)).toFixed(2),
+                    "AverageDragons": (parseFloat(team2.mediaDragoes) + parseFloat(team2.mediaDragoes)).toFixed(2),
+                    "AverageBarons": (parseFloat(team2.mediaBarons) + parseFloat(team2.mediaBarons)).toFixed(2),
+                    "AverageTime": ((parseFloat(team2.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas))/2).toFixed(2),
+                    "AverageKills": ((((parseFloat(team2.ckpm) + parseFloat(team2.ckpm))/2).toFixed(2) * (parseFloat(team2.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas)).toFixed(2) )/2).toFixed(2)
                 };
+
+                const team1NameElement = document.getElementById('team1Name');
+                team1NameElement.textContent = selectedTeam1;
+
+                const team2NameElement = document.getElementById('team2Name');
+                team2NameElement.textContent = selectedTeam2;
 
                 const jsonTableTeam1 = document.getElementById('jsonTableTeam1');
                 jsonTableTeam1.innerHTML = `
+                    <thead>
+                        <tr>
+                            <th>Attribute</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
                     <tbody>
                         <tr><td>AverageTowers</td><td>${sumDataTeam1.AverageTowers}</td></tr>
                         <tr><td>AverageDragons</td><td>${sumDataTeam1.AverageDragons}</td></tr>
@@ -253,6 +266,12 @@
 
                 const jsonTableTeam2 = document.getElementById('jsonTableTeam2');
                 jsonTableTeam2.innerHTML = `
+                    <thead>
+                        <tr>
+                            <th>Attribute</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
                     <tbody>
                         <tr><td>AverageTowers</td><td>${sumDataTeam2.AverageTowers}</td></tr>
                         <tr><td>AverageDragons</td><td>${sumDataTeam2.AverageDragons}</td></tr>
