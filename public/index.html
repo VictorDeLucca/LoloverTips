@@ -3,7 +3,6 @@
   <head>
     <title>LoLover</title>
     <style>
-      /* Estilos CSS */
       body {
         font-family: Arial, sans-serif;
         background-color: #f0f0f0; /* Light gray background */
@@ -23,10 +22,16 @@
       }
 
       .neumorphism {
-        background: #ffffff; /* White box background */
+        background: rgba(
+          255,
+          255,
+          255,
+          0.8
+        ); /* Glassmorphism effect with white background */
+        backdrop-filter: blur(10px); /* Glassmorphism blur effect */
         border-radius: 8px;
         padding: 8px;
-        box-shadow: 8px 8px 16px rgba(0, 0, 255, 0.1),
+        box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1),
           -8px -8px 16px rgba(255, 255, 255, 0.5); /* Blue and white box shadow */
       }
 
@@ -47,20 +52,26 @@
       select {
         width: 100%;
         padding: 10px;
-        border: 1px solid #007bff; /* Blue border */
+        border: none; /* No border */
+        background-color: #f0f0f0; /* Light gray background */
         border-radius: 4px;
         margin-bottom: 15px;
       }
 
       .result-json {
-        background-color: #ffffff; /* White box background */
-        border: 1px solid #007bff; /* Blue border */
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.8
+        ); /* Glassmorphism effect with white background */
         border-radius: 4px;
         padding: 10px;
         font-family: "Courier New", monospace;
         text-align: left;
         margin-top: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 255, 0.1); /* Blue box shadow */
+        box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1),
+          -8px -8px 16px rgba(255, 255, 255, 0.5); /* Glassmorphism box shadow */
       }
 
       .json {
@@ -78,14 +89,19 @@
       #jsonTableTeam1 td,
       #jsonTableTeam2 th,
       #jsonTableTeam2 td {
-        border: 1px solid #007bff; /* Blue border */
+        border: none; /* No border */
         padding: 8px;
         text-align: left;
       }
 
       #jsonTableTeam1 th,
       #jsonTableTeam2 th {
-        background-color: #f0f0f0; /* Light gray background */
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.8
+        ); /* Glassmorphism effect with white background */
       }
     </style>
     <link
