@@ -1,256 +1,304 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>LoLover</title>
     <style>
-        /* Estilos CSS */
+      /* Estilos CSS */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0; /* Light gray background */
+        margin: 0;
+        padding: 20px;
+      }
 
-       
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: rgba(255, 255, 255, 0);
-            margin: 0;
-            padding: 20px;
-        }
+      .header {
+        text-align: center;
+        color: #007bff; /* Blue header text */
+        margin-bottom: 20px;
+      }
 
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
+      .neumorphism {
+        background: #ffffff; /* White box background */
+        border-radius: 8px;
+        padding: 8px;
+        box-shadow: 8px 8px 16px rgba(0, 0, 255, 0.1),
+          -8px -8px 16px rgba(255, 255, 255, 0.5); /* Blue and white box shadow */
+      }
 
-        .header {
-            text-align: center;
-            color: #c3d8e0;
-            margin-bottom: 20px;
-        }
+      .team-container {
+        display: flex;
+        justify-content: space-between;
+      }
 
-        .neumorphism {
-            background: #f0f0f0;
-            border-radius: 8px;
-            padding: 8px;
-            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1),
-                        -4px -4px 8px rgba(255, 255, 255, 0.5);
-        }
+      .team-data {
+        width: calc(50% - 20px);
+      }
 
-        .team-container {
-            display: flex;
-            justify-content: space-between;
-        }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
 
-        .team-data {
-            width: calc(50% - 20px);
-        }
+      select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #007bff; /* Blue border */
+        border-radius: 4px;
+        margin-bottom: 15px;
+      }
 
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
+      .result-json {
+        background-color: #ffffff; /* White box background */
+        border: 1px solid #007bff; /* Blue border */
+        border-radius: 4px;
+        padding: 10px;
+        font-family: "Courier New", monospace;
+        text-align: left;
+        margin-top: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 255, 0.1); /* Blue box shadow */
+      }
 
-        select {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            margin-bottom: 15px;
-        }
+      .json {
+        white-space: pre-wrap;
+      }
 
-        .result-json {
-            background-color: #f0f0f0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            padding: 10px;
-            font-family: "Courier New", monospace;
-            text-align: left;
-            margin-top: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+      #jsonTableTeam1,
+      #jsonTableTeam2 {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
 
-        .json {
-            white-space: pre-wrap;
-        }
+      #jsonTableTeam1 th,
+      #jsonTableTeam1 td,
+      #jsonTableTeam2 th,
+      #jsonTableTeam2 td {
+        border: 1px solid #007bff; /* Blue border */
+        padding: 8px;
+        text-align: left;
+      }
 
-        #jsonTableTeam1, #jsonTableTeam2 {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-
-        #jsonTableTeam1 th, #jsonTableTeam1 td,
-        #jsonTableTeam2 th, #jsonTableTeam2 td {
-            border: 1px solid #ccc;
-            padding: 8px;
-            text-align: left;
-        }
-
-        #jsonTableTeam1 th, #jsonTableTeam2 th {
-            background-color: #f0f0f0;
-        }
+      #jsonTableTeam1 th,
+      #jsonTableTeam2 th {
+        background-color: #f0f0f0; /* Light gray background */
+      }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="header">LoLover / by DeLucca Tips</h1>
     <div class="container neumorphism">
-        <label for="leagueSelect">Selecione a Liga:</label>
-        <select id="leagueSelect" class="neumorphism" onchange="loadTeams()">
-            <option value="">Selecione a Liga</option>
-            <!-- As opções serão preenchidas dinamicamente -->
-        </select>
+      <label for="leagueSelect">Selecione a Liga:</label>
+      <select id="leagueSelect" class="neumorphism" onchange="loadTeams()">
+        <option value="">Selecione a Liga</option>
+        <!-- As opções serão preenchidas dinamicamente -->
+      </select>
 
-        <label for="teamSelect1">Selecione o Time 1:</label>
-        <select id="teamSelect1" class="neumorphism" onchange="calculateSum()">
-            <option value="">Selecione o Time 1</option>
-            <!-- As opções serão preenchidas dinamicamente -->
-        </select>
+      <label for="teamSelect1">Selecione o Time 1:</label>
+      <select id="teamSelect1" class="neumorphism" onchange="calculateSum()">
+        <option value="">Selecione o Time 1</option>
+        <!-- As opções serão preenchidas dinamicamente -->
+      </select>
 
-        <label for="teamSelect2">Selecione o Time 2:</label>
-        <select id="teamSelect2" class="neumorphism" onchange="calculateSum()">
-            <option value="">Selecione o Time 2</option>
-            <!-- As opções serão preenchidas dinamicamente -->
-        </select>
+      <label for="teamSelect2">Selecione o Time 2:</label>
+      <select id="teamSelect2" class="neumorphism" onchange="calculateSum()">
+        <option value="">Selecione o Time 2</option>
+        <!-- As opções serão preenchidas dinamicamente -->
+      </select>
 
-        <div class="result-json neumorphism">
-            <div class="team-container">
-                <div class="team-data">
-                    <h2 id="team1Name">Time 1</h2>
-                    <table id="jsonTableTeam1">
-                        <thead>
-                            <tr>
-                                <th>Attribute</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 1 -->
-                        </tbody>
-                    </table>
-                </div>
-                <div class="team-data">
-                    <h2 id="team2Name">Time 2</h2>
-                    <table id="jsonTableTeam2">
-                        <thead>
-                            <tr>
-                                <th>Attribute</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 2 -->
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+      <div class="result-json neumorphism">
+        <div class="team-container">
+          <div class="team-data">
+            <h2 id="team1Name">Time 1</h2>
+            <table id="jsonTableTeam1">
+              <thead>
+                <tr>
+                  <th>Attribute</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 1 -->
+              </tbody>
+            </table>
+          </div>
+          <div class="team-data">
+            <h2 id="team2Name">Time 2</h2>
+            <table id="jsonTableTeam2">
+              <thead>
+                <tr>
+                  <th>Attribute</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 2 -->
+              </tbody>
+            </table>
+          </div>
         </div>
+      </div>
     </div>
 
     <script>
-        // Função para realçar a sintaxe do JSON usando Highlight.js
-        function highlightJSON() {
-            const jsonResult = document.getElementById('jsonResult');
-            hljs.highlightBlock(jsonResult);
+      // Função para realçar a sintaxe do JSON usando Highlight.js
+      function highlightJSON() {
+        const jsonResult = document.getElementById("jsonResult");
+        hljs.highlightBlock(jsonResult);
+      }
+
+      // Função para formatar o JSON com quebras de linha antes de exibi-lo na tabela
+      function formatJSON(jsonString) {
+        try {
+          const jsonObject = JSON.parse(jsonString);
+          return JSON.stringify(jsonObject, null, 2);
+        } catch (error) {
+          console.error("Erro ao formatar o JSON:", error);
+          return jsonString;
+        }
+      }
+
+      function loadJSON(callback) {
+        const xhr = new XMLHttpRequest();
+        xhr.overrideMimeType("application/json");
+        xhr.open("GET", "data.json", true);
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState === 4 && xhr.status == "200") {
+            callback(xhr.responseText);
+          }
+        };
+        xhr.send(null);
+      }
+
+      function loadTeams() {
+        const selectedLeague = document.getElementById("leagueSelect").value;
+        if (!selectedLeague) {
+          return;
         }
 
-        // Função para formatar o JSON com quebras de linha antes de exibi-lo na tabela
-        function formatJSON(jsonString) {
-            try {
-                const jsonObject = JSON.parse(jsonString);
-                return JSON.stringify(jsonObject, null, 2);
-            } catch (error) {
-                console.error('Erro ao formatar o JSON:', error);
-                return jsonString;
-            }
+        loadJSON(function (response) {
+          const data = JSON.parse(response);
+          const leagueData = data.find(
+            (item) => item.league === selectedLeague
+          );
+
+          if (!leagueData) {
+            return;
+          }
+
+          const teamSelect1 = document.getElementById("teamSelect1");
+          const teamSelect2 = document.getElementById("teamSelect2");
+          teamSelect1.innerHTML =
+            "<option value=''>Selecione o Time 1</option>";
+          teamSelect2.innerHTML =
+            "<option value=''>Selecione o Time 2</option>";
+
+          const teams = leagueData.teams;
+          teams.forEach((team) => {
+            teamSelect1.innerHTML += `<option value="${team.teamName}">${team.teamName}</option>`;
+            teamSelect2.innerHTML += `<option value="${team.teamName}">${team.teamName}</option>`;
+          });
+        });
+      }
+
+      function calculateSum() {
+        const selectedLeague = document.getElementById("leagueSelect").value;
+        const selectedTeam1 = document.getElementById("teamSelect1").value;
+        const selectedTeam2 = document.getElementById("teamSelect2").value;
+
+        if (!selectedLeague || !selectedTeam1 || !selectedTeam2) {
+          return;
         }
 
-        function loadJSON(callback) {
-            const xhr = new XMLHttpRequest();
-            xhr.overrideMimeType("application/json");
-            xhr.open('GET', 'data.json', true);
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4 && xhr.status == "200") {
-                    callback(xhr.responseText);
-                }
-            };
-            xhr.send(null);
-        }
+        loadJSON(function (response) {
+          const data = JSON.parse(response);
+          const leagueData = data.find(
+            (item) => item.league === selectedLeague
+          );
 
-        function loadTeams() {
-            const selectedLeague = document.getElementById('leagueSelect').value;
-            if (!selectedLeague) {
-                return;
-            }
+          if (!leagueData) {
+            return;
+          }
 
-            loadJSON(function (response) {
-                const data = JSON.parse(response);
-                const leagueData = data.find(item => item.league === selectedLeague);
+          const teams = leagueData.teams;
+          const team1 = teams.find((team) => team.teamName === selectedTeam1);
+          const team2 = teams.find((team) => team.teamName === selectedTeam2);
 
-                if (!leagueData) {
-                    return;
-                }
+          if (!team1 || !team2) {
+            return;
+          }
 
-                const teamSelect1 = document.getElementById('teamSelect1');
-                const teamSelect2 = document.getElementById('teamSelect2');
-                teamSelect1.innerHTML = "<option value=''>Selecione o Time 1</option>";
-                teamSelect2.innerHTML = "<option value=''>Selecione o Time 2</option>";
+          const sumDataTeam1 = {
+            AverageTowers: (
+              parseFloat(team1.mediaTorres) + parseFloat(team1.mediaTorres)
+            ).toFixed(2),
+            AverageDragons: (
+              parseFloat(team1.mediaDragoes) + parseFloat(team1.mediaDragoes)
+            ).toFixed(2),
+            AverageBarons: (
+              parseFloat(team1.mediaBarons) + parseFloat(team1.mediaBarons)
+            ).toFixed(2),
+            AverageTime: (
+              (parseFloat(team1.mediaDuracaoPartidas) +
+                parseFloat(team1.mediaDuracaoPartidas)) /
+              2
+            ).toFixed(2),
+            AverageKills: (
+              (((parseFloat(team1.ckpm) + parseFloat(team1.ckpm)) / 2).toFixed(
+                2
+              ) *
+                (
+                  parseFloat(team1.mediaDuracaoPartidas) +
+                  parseFloat(team1.mediaDuracaoPartidas)
+                ).toFixed(2)) /
+              2
+            ).toFixed(2),
+          };
 
-                const teams = leagueData.teams;
-                teams.forEach(team => {
-                    teamSelect1.innerHTML += `<option value="${team.teamName}">${team.teamName}</option>`;
-                    teamSelect2.innerHTML += `<option value="${team.teamName}">${team.teamName}</option>`;
-                });
-            });
-        }
+          const sumDataTeam2 = {
+            AverageTowers: (
+              parseFloat(team2.mediaTorres) + parseFloat(team2.mediaTorres)
+            ).toFixed(2),
+            AverageDragons: (
+              parseFloat(team2.mediaDragoes) + parseFloat(team2.mediaDragoes)
+            ).toFixed(2),
+            AverageBarons: (
+              parseFloat(team2.mediaBarons) + parseFloat(team2.mediaBarons)
+            ).toFixed(2),
+            AverageTime: (
+              (parseFloat(team2.mediaDuracaoPartidas) +
+                parseFloat(team2.mediaDuracaoPartidas)) /
+              2
+            ).toFixed(2),
+            AverageKills: (
+              (((parseFloat(team2.ckpm) + parseFloat(team2.ckpm)) / 2).toFixed(
+                2
+              ) *
+                (
+                  parseFloat(team2.mediaDuracaoPartidas) +
+                  parseFloat(team2.mediaDuracaoPartidas)
+                ).toFixed(2)) /
+              2
+            ).toFixed(2),
+          };
 
-        function calculateSum() {
-            const selectedLeague = document.getElementById('leagueSelect').value;
-            const selectedTeam1 = document.getElementById('teamSelect1').value;
-            const selectedTeam2 = document.getElementById('teamSelect2').value;
+          const team1NameElement = document.getElementById("team1Name");
+          team1NameElement.textContent = selectedTeam1;
 
-            if (!selectedLeague || !selectedTeam1 || !selectedTeam2) {
-                return;
-            }
+          const team2NameElement = document.getElementById("team2Name");
+          team2NameElement.textContent = selectedTeam2;
 
-            loadJSON(function (response) {
-                const data = JSON.parse(response);
-                const leagueData = data.find(item => item.league === selectedLeague);
-
-                if (!leagueData) {
-                    return;
-                }
-
-                const teams = leagueData.teams;
-                const team1 = teams.find(team => team.teamName === selectedTeam1);
-                const team2 = teams.find(team => team.teamName === selectedTeam2);
-
-                if (!team1 || !team2) {
-                    return;
-                }
-
-                const sumDataTeam1 = {
-                    "AverageTowers": (parseFloat(team1.mediaTorres) + parseFloat(team1.mediaTorres)).toFixed(2),
-                    "AverageDragons": (parseFloat(team1.mediaDragoes) + parseFloat(team1.mediaDragoes)).toFixed(2),
-                    "AverageBarons": (parseFloat(team1.mediaBarons) + parseFloat(team1.mediaBarons)).toFixed(2),
-                    "AverageTime": ((parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team1.mediaDuracaoPartidas))/2).toFixed(2),
-                    "AverageKills": ((((parseFloat(team1.ckpm) + parseFloat(team1.ckpm))/2).toFixed(2) * (parseFloat(team1.mediaDuracaoPartidas) + parseFloat(team1.mediaDuracaoPartidas)).toFixed(2) )/2).toFixed(2)
-                };
-
-                const sumDataTeam2 = {
-                    "AverageTowers": (parseFloat(team2.mediaTorres) + parseFloat(team2.mediaTorres)).toFixed(2),
-                    "AverageDragons": (parseFloat(team2.mediaDragoes) + parseFloat(team2.mediaDragoes)).toFixed(2),
-                    "AverageBarons": (parseFloat(team2.mediaBarons) + parseFloat(team2.mediaBarons)).toFixed(2),
-                    "AverageTime": ((parseFloat(team2.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas))/2).toFixed(2),
-                    "AverageKills": ((((parseFloat(team2.ckpm) + parseFloat(team2.ckpm))/2).toFixed(2) * (parseFloat(team2.mediaDuracaoPartidas) + parseFloat(team2.mediaDuracaoPartidas)).toFixed(2) )/2).toFixed(2)
-                };
-
-                const team1NameElement = document.getElementById('team1Name');
-                team1NameElement.textContent = selectedTeam1;
-
-                const team2NameElement = document.getElementById('team2Name');
-                team2NameElement.textContent = selectedTeam2;
-
-                const jsonTableTeam1 = document.getElementById('jsonTableTeam1');
-                jsonTableTeam1.innerHTML = `
+          const jsonTableTeam1 = document.getElementById("jsonTableTeam1");
+          jsonTableTeam1.innerHTML = `
                     <thead>
                         <tr>
                             <th>Attribute</th>
@@ -266,8 +314,8 @@
                     </tbody>
                 `;
 
-                const jsonTableTeam2 = document.getElementById('jsonTableTeam2');
-                jsonTableTeam2.innerHTML = `
+          const jsonTableTeam2 = document.getElementById("jsonTableTeam2");
+          jsonTableTeam2.innerHTML = `
                     <thead>
                         <tr>
                             <th>Attribute</th>
@@ -283,22 +331,22 @@
                     </tbody>
                 `;
 
-                // Realce de sintaxe usando Highlight.js
-                highlightJSON();
-            });
-        }
-
-        // Chamar a função para preencher o menu suspenso ao carregar a página
-        loadJSON(function (response) {
-            const data = JSON.parse(response);
-            const leagues = data.map(item => item.league);
-
-            const leagueSelect = document.getElementById('leagueSelect');
-            leagueSelect.innerHTML = "<option value=''>Selecione a Liga</option>";
-            leagues.forEach(league => {
-                leagueSelect.innerHTML += `<option value="${league}">${league}</option>`;
-            });
+          // Realce de sintaxe usando Highlight.js
+          highlightJSON();
         });
+      }
+
+      // Chamar a função para preencher o menu suspenso ao carregar a página
+      loadJSON(function (response) {
+        const data = JSON.parse(response);
+        const leagues = data.map((item) => item.league);
+
+        const leagueSelect = document.getElementById("leagueSelect");
+        leagueSelect.innerHTML = "<option value=''>Selecione a Liga</option>";
+        leagues.forEach((league) => {
+          leagueSelect.innerHTML += `<option value="${league}">${league}</option>`;
+        });
+      });
     </script>
-</body>
+  </body>
 </html>
