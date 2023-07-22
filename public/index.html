@@ -3,31 +3,25 @@
   <head>
     <title>LoLover</title>
     <style>
-      body {
-        font-family: "Courier New", monospace; /* Terminal hacker-style font */
-        background-color: #000000; /* Black background */
-        margin: 0;
-        padding: 20px;
-        color: #00ff00; /* Green text color */
-      }
+      
 
       .container {
-        max-width: 1000px;
+        width: 100%;
         margin: 0 auto;
       }
 
       .header {
         text-align: center;
-        color: #00ff00; /* Green header text */
+        color: #658ec6; /* Green header text */
         margin-bottom: 20px;
       }
 
       .neumorphism {
-        background: #1a1a1a; /* Dark gray box background */
+        background: #ffffff; /* Dark gray box background */
         border-radius: 8px;
         padding: 8px;
-        box-shadow: 8px 8px 16px rgba(0, 255, 0, 0.1),
-          -8px -8px 16px rgba(0, 0, 0, 0.5); /* Green and dark gray box shadow */
+        box-shadow: 8px 8px 16px rgba(160, 224, 233, 0.342),
+          -8px -8px 16px rgba(174, 232, 255, 0.445); /* Green and dark gray box shadow */
       }
 
       .team-container {
@@ -39,31 +33,31 @@
         width: calc(50% - 20px);
       }
 
-      label {
+      /* label {
         display: block;
         margin-bottom: 5px;
-      }
+      } */
 
       select {
         width: 100%;
         padding: 10px;
-        border: 1px solid #00ff00; /* Green border */
+        border: 1px solid #c9ddf8; /* Green border */
         border-radius: 4px;
         margin-bottom: 15px;
-        background-color: #1a1a1a; /* Dark gray background */
-        color: #00ff00; /* Green text color */
+        background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+        color: #658ec6; /* Green text color */
       }
 
       .result-json {
-        background-color: #1a1a1a; /* Dark gray box background */
-        border: 1px solid #00ff00; /* Green border */
+        background-color: #ffffff; /* Dark gray box background */
+        border: 1px solid #c9ddf8; /* Green border */
         border-radius: 4px;
         padding: 10px;
         font-family: "Courier New", monospace;
         text-align: left;
         margin-top: 10px;
         box-shadow: 0 2px 4px rgba(0, 255, 0, 0.1); /* Green box shadow */
-        color: #00ff00; /* Green text color */
+        color: #658ec6; /* Green text color */
       }
 
       .json {
@@ -81,16 +75,226 @@
       #jsonTableTeam1 td,
       #jsonTableTeam2 th,
       #jsonTableTeam2 td {
-        border: 1px solid #00ff00; /* Green border */
+        border: 1px solid #c9ddf8; /* Green border */
         padding: 8px;
         text-align: left;
       }
 
       #jsonTableTeam1 th,
       #jsonTableTeam2 th {
-        background-color: #1a1a1a; /* Dark gray background */
-        color: #00ff00; /* Green text color */
+        background-color: #ffffff; /* Dark gray background */
+        color: #658ec6; /* Green text color */
       }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        color: #426696;
+        font-weight: 600;
+        font-size: 3rem;
+        opacity: 0.8;
+      }
+      h2,
+      p {
+        color: #658ec6;
+        font-weight: 500;
+        opacity: 0.8;
+      }
+
+      h3 {
+        color: #426696;
+        font-weight: 600;
+        opacity: 0.8;
+      }
+
+      main {
+        font-family: "Poppins", sans-serif;
+        min-height: 100vh;
+        background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .glass {
+        background: white;
+        min-height: 90vh;
+        width: 85%;
+        background: linear-gradient(
+          to right bottom,
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0.3)
+        );
+        border-radius: 2rem;
+        z-index: 2;
+        backdrop-filter: blur(2rem);
+        display: flex;
+      }
+      .circle1,
+      .circle2 {
+        background: white;
+        background: linear-gradient(
+          to right bottom,
+          rgba(255, 255, 255, 0.8),
+          rgba(255, 255, 255, 0.3)
+        );
+        height: 20rem;
+        width: 20rem;
+        position: absolute;
+        border-radius: 50%;
+      }
+
+      .circle1 {
+        top: 5%;
+        right: 15%;
+      }
+      .circle2 {
+        bottom: 5%;
+        left: 10%;
+      }
+      .dashboard {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        background: linear-gradient(
+          to right bottom,
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0.3)
+        );
+        border-radius: 2rem;
+      }
+      .link {
+        display: flex;
+        margin: 2rem 0rem;
+        padding: 1rem 5rem;
+        align-items: center;
+      }
+      .link h2 {
+        padding: 0rem 2rem;
+      }
+
+      .games {
+        flex: 2;
+      }
+
+      .pro {
+        background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+        border-radius: 2rem;
+        color: white;
+        /* padding: 1rem; */
+        position: relative;
+      }
+
+      .pro img {
+        position: absolute;
+        top: -10%;
+        right: 10%;
+      }
+      .pro h2 {
+        width: 40%;
+        color: white;
+        font-weight: 600;
+      }
+
+      /* GAMES */
+      .status {
+        margin-bottom: 3rem;
+      }
+
+      .status input {
+        background: linear-gradient(
+          to right bottom,
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0.3)
+        );
+        border: none;
+        width: 50%;
+        padding: 0.5rem;
+        border-radius: 2rem;
+      }
+
+      .games {
+        margin: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+      .card {
+            display: flex;
+        background: linear-gradient(
+          to left top,
+          rgba(255, 255, 255, 0.8),
+          rgba(255, 255, 255, 0.5)
+        );
+        border-radius: 1rem;
+        margin: 2rem 0rem;
+        padding: 2rem;
+        box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+        justify-content: space-around;
+      }
+
+      .progress {
+        background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+        width: 100%;
+        height: 25%;
+        border-radius: 1rem;
+        position: relative;
+        overflow: hidden;
+      }
+      .progress::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: rgb(236, 236, 236);
+        position: absolute;
+        left: 60%;
+      }
+      .card-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .telegram-link {
+      /* position: relative; */
+      /* width: 50px;
+      height: 50px; */
+      /* overflow: hidden; */
+      /* border-radius: 50%; */
+      z-index: 1;
+      transform-style: preserve-3d;
+      animation: rotateTelegram 4s infinite linear;
+    }
+
+   
+
+    @keyframes rotateTelegram {
+      0%, 20%, 50%, 80%, 100% {
+        transform: rotateX(0deg) rotateY(0deg);
+      }
+      40% {
+        transform: rotateX(-20deg) rotateY(15deg);
+      }
+      60% {
+        transform: rotateX(15deg) rotateY(-15deg);
+      }
+    }
+
+    .telegram-link a {
+      text-decoration: none; /* Remover sublinhado do link */
+    }
+  
+
+      
+      
     </style>
     <link
       rel="stylesheet"
@@ -99,59 +303,104 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
   </head>
   <body>
-    <h1 class="header">LoLover / by DeLucca Tips</h1>
-    <div class="container neumorphism">
-      <label for="leagueSelect">Selecione a Liga:</label>
-      <select id="leagueSelect" class="neumorphism" onchange="loadTeams()">
-        <option value="">Selecione a Liga</option>
-        <!-- As opções serão preenchidas dinamicamente -->
-      </select>
-
-      <label for="teamSelect1">Selecione o Time 1:</label>
-      <select id="teamSelect1" class="neumorphism" onchange="calculateSum()">
-        <option value="">Selecione o Time 1</option>
-        <!-- As opções serão preenchidas dinamicamente -->
-      </select>
-
-      <label for="teamSelect2">Selecione o Time 2:</label>
-      <select id="teamSelect2" class="neumorphism" onchange="calculateSum()">
-        <option value="">Selecione o Time 2</option>
-        <!-- As opções serão preenchidas dinamicamente -->
-      </select>
-
-      <div class="result-json neumorphism">
-        <div class="team-container">
-          <div class="team-data">
-            <h2 id="team1Name">Time 1</h2>
-            <table id="jsonTableTeam1">
-              <thead>
-                <tr>
-                  <th>Attribute</th>
-                  <th>Value</th>
-                </tr>
-              </thead>
-              <tbody>
-                <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 1 -->
-              </tbody>
-            </table>
+    <main>
+      <section class="glass">
+        <div class="dashboard">
+          <div class="user">
+            <img src="./images/xdelucca.png" alt="" />
+            <h3>DeLucca Tips</h3>
           </div>
-          <div class="team-data">
-            <h2 id="team2Name">Time 2</h2>
-            <table id="jsonTableTeam2">
-              <thead>
-                <tr>
-                  <th>Attribute</th>
-                  <th>Value</th>
-                </tr>
-              </thead>
-              <tbody>
-                <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 2 -->
-              </tbody>
-            </table>
+          <h2 class="telegram-link">
+            <a href="https://t.me/DeLuccaTips">
+              <img src="./images/telegram.png" alt="telegram" /> <h3>Telegram</h3>
+            </a>
+          </h2>
+          </div>
+          <div class="pro">
+            
           </div>
         </div>
-      </div>
-    </div>
+        <div class="games">
+          <div class="status">
+            <h1 class="header">LoLover</h1>
+            <input type="text" />
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="./images/assassins.png" alt="" />
+              <div class="card-info">
+                <div class="container neumorphism">
+                  <label for="leagueSelect">Selecione a Liga:</label>
+                  <select
+                    id="leagueSelect"
+                    class="neumorphism"
+                    onchange="loadTeams()"
+                  >
+                    <option value="">Selecione a Liga</option>
+                    <!-- As opções serão preenchidas dinamicamente -->
+                  </select>
+
+                  <label for="teamSelect1">Selecione o Time 1:</label>
+                  <select
+                    id="teamSelect1"
+                    class="neumorphism"
+                    onchange="calculateSum()"
+                  >
+                    <option value="">Selecione o Time 1</option>
+                    <!-- As opções serão preenchidas dinamicamente -->
+                  </select>
+
+                  <label for="teamSelect2">Selecione o Time 2:</label>
+                  <select
+                    id="teamSelect2"
+                    class="neumorphism"
+                    onchange="calculateSum()"
+                  >
+                    <option value="">Selecione o Time 2</option>
+                    <!-- As opções serão preenchidas dinamicamente -->
+                  </select>
+
+                  <div class="result-json neumorphism">
+                    <div class="team-container">
+                      <div class="team-data">
+                        <h2 id="team1Name">Time 1</h2>
+                        <table id="jsonTableTeam1">
+                          <thead>
+                            <tr>
+                              <th>Attribute</th>
+                              <th>Value</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 1 -->
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="team-data">
+                        <h2 id="team2Name">Time 2</h2>
+                        <table id="jsonTableTeam2">
+                          <thead>
+                            <tr>
+                              <th>Attribute</th>
+                              <th>Value</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <!-- As linhas da tabela serão preenchidas dinamicamente para o Time 2 -->
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
 
     <script>
       // Função para realçar a sintaxe do JSON usando Highlight.js
