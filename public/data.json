@@ -4,18 +4,18 @@
     "teams": [
       {
         "teamName": "Klanik Esport",
-        "mediaTorres": 3,
-        "mediaDragoes": 0.945,
-        "mediaBarons": 0.395,
-        "mediaDuracaoPartidas": "32.01",
+        "mediaTorres": 2.925,
+        "mediaDragoes": 0.91,
+        "mediaBarons": 0.3875,
+        "mediaDuracaoPartidas": "31.87",
         "ckpm": "0.93"
       },
       {
         "teamName": "MS Company",
-        "mediaTorres": 1.785,
-        "mediaDragoes": 0.77,
-        "mediaBarons": 0.2575,
-        "mediaDuracaoPartidas": "31.30",
+        "mediaTorres": 1.805,
+        "mediaDragoes": 0.75,
+        "mediaBarons": 0.25,
+        "mediaDuracaoPartidas": "31.27",
         "ckpm": "0.93"
       },
       {
@@ -28,72 +28,72 @@
       },
       {
         "teamName": "ViV Esport",
-        "mediaTorres": 2.9,
-        "mediaDragoes": 0.94,
-        "mediaBarons": 0.3375,
-        "mediaDuracaoPartidas": "31.38",
-        "ckpm": "0.89"
+        "mediaTorres": 2.94,
+        "mediaDragoes": 0.975,
+        "mediaBarons": 0.3425,
+        "mediaDuracaoPartidas": "31.35",
+        "ckpm": "0.90"
       },
       {
         "teamName": "Team du Sud",
-        "mediaTorres": 4.045,
-        "mediaDragoes": 1.21,
-        "mediaBarons": 0.395,
-        "mediaDuracaoPartidas": "29.07",
-        "ckpm": "0.98"
+        "mediaTorres": 4.07,
+        "mediaDragoes": 1.225,
+        "mediaBarons": 0.41,
+        "mediaDuracaoPartidas": "29.08",
+        "ckpm": "0.99"
       },
       {
         "teamName": "Akroma",
-        "mediaTorres": 2.815,
-        "mediaDragoes": 1.23,
-        "mediaBarons": 0.4725,
-        "mediaDuracaoPartidas": "32.92",
+        "mediaTorres": 2.845,
+        "mediaDragoes": 1.235,
+        "mediaBarons": 0.4575,
+        "mediaDuracaoPartidas": "32.80",
         "ckpm": "0.97"
       },
       {
         "teamName": "Atletec",
-        "mediaTorres": 2.485,
-        "mediaDragoes": 1.055,
-        "mediaBarons": 0.2575,
-        "mediaDuracaoPartidas": "30.33",
-        "ckpm": "1.00"
+        "mediaTorres": 2.54,
+        "mediaDragoes": 1.07,
+        "mediaBarons": 0.265,
+        "mediaDuracaoPartidas": "30.38",
+        "ckpm": "0.99"
       },
       {
         "teamName": "Joblife",
-        "mediaTorres": 2.815,
-        "mediaDragoes": 1.21,
-        "mediaBarons": 0.395,
-        "mediaDuracaoPartidas": "32.63",
+        "mediaTorres": 2.75,
+        "mediaDragoes": 1.205,
+        "mediaBarons": 0.3875,
+        "mediaDuracaoPartidas": "32.61",
         "ckpm": "0.95"
       },
       {
         "teamName": "Lille Esport",
-        "mediaTorres": 3.335,
-        "mediaDragoes": 1.145,
-        "mediaBarons": 0.3775,
-        "mediaDuracaoPartidas": "30.92",
+        "mediaTorres": 3.285,
+        "mediaDragoes": 1.12,
+        "mediaBarons": 0.37,
+        "mediaDuracaoPartidas": "30.89",
         "ckpm": "1.10"
       },
       {
         "teamName": "Project Conquerors",
-        "mediaTorres": 2.715,
-        "mediaDragoes": 1.155,
-        "mediaBarons": 0.2275,
-        "mediaDuracaoPartidas": "31.88",
+        "mediaTorres": 2.755,
+        "mediaDragoes": 1.175,
+        "mediaBarons": 0.215,
+        "mediaDuracaoPartidas": "31.90",
         "ckpm": "0.96"
       },
       {
         "teamName": "MHSC Esport",
-        "mediaTorres": 3.265,
+        "mediaTorres": 3.36,
         "mediaDragoes": 1,
-        "mediaBarons": 0.44,
-        "mediaDuracaoPartidas": "32.46",
-        "ckpm": "0.95"
+        "mediaBarons": 0.445,
+        "mediaDuracaoPartidas": "32.55",
+        "ckpm": "0.94"
       }
     ]
   },
   {
-    "league": "LVP DDH",
+    "league": "DDH",
     "teams": [
       {
         "teamName": "Reven Esports",
@@ -227,11 +227,11 @@
       },
       {
         "teamName": "Team WE",
-        "mediaTorres": 2.97,
-        "mediaDragoes": 1.1,
+        "mediaTorres": 2.965,
+        "mediaDragoes": 1.09,
         "mediaBarons": 0.1975,
-        "mediaDuracaoPartidas": "31.51",
-        "ckpm": "0.81"
+        "mediaDuracaoPartidas": "31.68",
+        "ckpm": "0.80"
       },
       {
         "teamName": "Anyone's Legend",
@@ -252,10 +252,10 @@
       {
         "teamName": "Bilibili Gaming",
         "mediaTorres": 3.665,
-        "mediaDragoes": 1.235,
+        "mediaDragoes": 1.225,
         "mediaBarons": 0.2275,
-        "mediaDuracaoPartidas": "31.23",
-        "ckpm": "0.91"
+        "mediaDuracaoPartidas": "31.17",
+        "ckpm": "0.92"
       },
       {
         "teamName": "JD Gaming",
@@ -283,18 +283,18 @@
       },
       {
         "teamName": "Royal Never Give Up",
-        "mediaTorres": 3.065,
+        "mediaTorres": 3.06,
         "mediaDragoes": 1.125,
-        "mediaBarons": 0.165,
-        "mediaDuracaoPartidas": "30.83",
-        "ckpm": "0.83"
+        "mediaBarons": 0.1675,
+        "mediaDuracaoPartidas": "30.90",
+        "ckpm": "0.82"
       },
       {
         "teamName": "Oh My God",
-        "mediaTorres": 3.11,
-        "mediaDragoes": 1.125,
-        "mediaBarons": 0.2025,
-        "mediaDuracaoPartidas": "30.94",
+        "mediaTorres": 3.09,
+        "mediaDragoes": 1.105,
+        "mediaBarons": 0.205,
+        "mediaDuracaoPartidas": "30.86",
         "ckpm": "0.80"
       },
       {
@@ -307,27 +307,27 @@
       },
       {
         "teamName": "Ninjas in Pyjamas",
-        "mediaTorres": 2.525,
-        "mediaDragoes": 0.9,
-        "mediaBarons": 0.1775,
-        "mediaDuracaoPartidas": "30.47",
+        "mediaTorres": 2.565,
+        "mediaDragoes": 0.905,
+        "mediaBarons": 0.175,
+        "mediaDuracaoPartidas": "30.38",
         "ckpm": "0.81"
       },
       {
         "teamName": "EDward Gaming",
-        "mediaTorres": 3.29,
+        "mediaTorres": 3.285,
         "mediaDragoes": 1.225,
-        "mediaBarons": 0.1975,
-        "mediaDuracaoPartidas": "31.32",
+        "mediaBarons": 0.2,
+        "mediaDuracaoPartidas": "31.35",
         "ckpm": "0.82"
       },
       {
         "teamName": "Top Esports",
-        "mediaTorres": 3.245,
-        "mediaDragoes": 1.24,
-        "mediaBarons": 0.1825,
-        "mediaDuracaoPartidas": "30.94",
-        "ckpm": "0.82"
+        "mediaTorres": 3.175,
+        "mediaDragoes": 1.215,
+        "mediaBarons": 0.1725,
+        "mediaDuracaoPartidas": "30.89",
+        "ckpm": "0.84"
       },
       {
         "teamName": "ThunderTalk Gaming",
@@ -339,18 +339,18 @@
       },
       {
         "teamName": "LNG Esports",
-        "mediaTorres": 3.605,
-        "mediaDragoes": 1.18,
-        "mediaBarons": 0.215,
-        "mediaDuracaoPartidas": "31.75",
+        "mediaTorres": 3.58,
+        "mediaDragoes": 1.2,
+        "mediaBarons": 0.2175,
+        "mediaDuracaoPartidas": "32.02",
         "ckpm": "0.84"
       },
       {
         "teamName": "Weibo Gaming",
-        "mediaTorres": 3.32,
-        "mediaDragoes": 1.07,
-        "mediaBarons": 0.2,
-        "mediaDuracaoPartidas": "30.77",
+        "mediaTorres": 3.345,
+        "mediaDragoes": 1.06,
+        "mediaBarons": 0.2025,
+        "mediaDuracaoPartidas": "30.89",
         "ckpm": "0.80"
       }
     ]
@@ -425,39 +425,39 @@
     ]
   },
   {
-    "league": "LCK CL",
+    "league": "LCKC",
     "teams": [
       {
         "teamName": "Nongshim Esports Academy",
-        "mediaTorres": 3.075,
+        "mediaTorres": 3.065,
         "mediaDragoes": 1.095,
         "mediaBarons": 0.385,
-        "mediaDuracaoPartidas": "31.25",
+        "mediaDuracaoPartidas": "31.24",
         "ckpm": "0.83"
       },
       {
         "teamName": "DRX Challengers",
-        "mediaTorres": 3.47,
-        "mediaDragoes": 1.17,
-        "mediaBarons": 0.39,
-        "mediaDuracaoPartidas": "31.98",
-        "ckpm": "0.76"
-      },
-      {
-        "teamName": "Hanwha Life Esports Challengers",
-        "mediaTorres": 3.205,
-        "mediaDragoes": 1.295,
-        "mediaBarons": 0.48,
-        "mediaDuracaoPartidas": "31.87",
+        "mediaTorres": 3.51,
+        "mediaDragoes": 1.19,
+        "mediaBarons": 0.395,
+        "mediaDuracaoPartidas": "32.13",
         "ckpm": "0.77"
       },
       {
+        "teamName": "Hanwha Life Esports Challengers",
+        "mediaTorres": 3.24,
+        "mediaDragoes": 1.3,
+        "mediaBarons": 0.495,
+        "mediaDuracaoPartidas": "32.19",
+        "ckpm": "0.76"
+      },
+      {
         "teamName": "Gen.G Global Academy",
-        "mediaTorres": 2.685,
+        "mediaTorres": 2.665,
         "mediaDragoes": 1,
-        "mediaBarons": 0.36,
-        "mediaDuracaoPartidas": "31.68",
-        "ckpm": "0.81"
+        "mediaBarons": 0.3625,
+        "mediaDuracaoPartidas": "31.61",
+        "ckpm": "0.82"
       },
       {
         "teamName": "BRION Challengers",
@@ -469,27 +469,27 @@
       },
       {
         "teamName": "Dplus KIA Challengers",
-        "mediaTorres": 3.535,
-        "mediaDragoes": 1.275,
-        "mediaBarons": 0.41,
-        "mediaDuracaoPartidas": "30.85",
+        "mediaTorres": 3.51,
+        "mediaDragoes": 1.28,
+        "mediaBarons": 0.42,
+        "mediaDuracaoPartidas": "31.19",
         "ckpm": "0.79"
       },
       {
         "teamName": "Kwangdong Freecs Challengers",
-        "mediaTorres": 2.09,
-        "mediaDragoes": 0.98,
-        "mediaBarons": 0.1925,
-        "mediaDuracaoPartidas": "31.32",
-        "ckpm": "0.84"
+        "mediaTorres": 2.115,
+        "mediaDragoes": 0.995,
+        "mediaBarons": 0.185,
+        "mediaDuracaoPartidas": "31.45",
+        "ckpm": "0.85"
       },
       {
         "teamName": "KT Rolster Challengers",
-        "mediaTorres": 3.25,
-        "mediaDragoes": 1.19,
-        "mediaBarons": 0.4,
-        "mediaDuracaoPartidas": "31.60",
-        "ckpm": "0.74"
+        "mediaTorres": 3.295,
+        "mediaDragoes": 1.225,
+        "mediaBarons": 0.4125,
+        "mediaDuracaoPartidas": "31.87",
+        "ckpm": "0.75"
       },
       {
         "teamName": "T1 Challengers",
@@ -501,27 +501,27 @@
       },
       {
         "teamName": "Liiv SANDBOX Youth",
-        "mediaTorres": 2.43,
-        "mediaDragoes": 0.93,
-        "mediaBarons": 0.3375,
-        "mediaDuracaoPartidas": "33.10",
+        "mediaTorres": 2.49,
+        "mediaDragoes": 0.935,
+        "mediaBarons": 0.355,
+        "mediaDuracaoPartidas": "33.44",
         "ckpm": "0.84"
       },
       {
         "teamName": "OKSavingsBank BRION Challengers",
-        "mediaTorres": 2.45,
-        "mediaDragoes": 0.985,
-        "mediaBarons": 0.3675,
-        "mediaDuracaoPartidas": "30.05",
-        "ckpm": "0.77"
+        "mediaTorres": 2.595,
+        "mediaDragoes": 0.96,
+        "mediaBarons": 0.36,
+        "mediaDuracaoPartidas": "30.74",
+        "ckpm": "0.78"
       },
       {
         "teamName": "T1 Esports Academy",
-        "mediaTorres": 2.23,
-        "mediaDragoes": 1.25,
-        "mediaBarons": 0.23,
-        "mediaDuracaoPartidas": "32.08",
-        "ckpm": "0.86"
+        "mediaTorres": 2.435,
+        "mediaDragoes": 1.285,
+        "mediaBarons": 0.25,
+        "mediaDuracaoPartidas": "32.20",
+        "ckpm": "0.85"
       }
     ]
   },
@@ -671,75 +671,75 @@
       },
       {
         "teamName": "Illuminar Gaming",
-        "mediaTorres": 2.985,
-        "mediaDragoes": 1.055,
-        "mediaBarons": 0.3675,
-        "mediaDuracaoPartidas": "32.58",
-        "ckpm": "0.81"
+        "mediaTorres": 2.93,
+        "mediaDragoes": 1.045,
+        "mediaBarons": 0.3375,
+        "mediaDuracaoPartidas": "32.47",
+        "ckpm": "0.82"
       },
       {
         "teamName": "Iron Wolves",
-        "mediaTorres": 2.73,
-        "mediaDragoes": 1.03,
-        "mediaBarons": 0.285,
-        "mediaDuracaoPartidas": "31.89",
+        "mediaTorres": 2.655,
+        "mediaDragoes": 1.04,
+        "mediaBarons": 0.2825,
+        "mediaDuracaoPartidas": "31.58",
         "ckpm": "0.93"
       },
       {
         "teamName": "Zero Tenacity",
-        "mediaTorres": 4.26,
-        "mediaDragoes": 1.225,
+        "mediaTorres": 4.29,
+        "mediaDragoes": 1.22,
         "mediaBarons": 0.545,
-        "mediaDuracaoPartidas": "29.93",
+        "mediaDuracaoPartidas": "29.90",
         "ckpm": "0.99"
       },
       {
         "teamName": "Team ESCA Gaming",
-        "mediaTorres": 2.19,
-        "mediaDragoes": 0.895,
+        "mediaTorres": 2.21,
+        "mediaDragoes": 0.905,
         "mediaBarons": 0.25,
-        "mediaDuracaoPartidas": "31.30",
-        "ckpm": "0.93"
+        "mediaDuracaoPartidas": "31.24",
+        "ckpm": "0.95"
       },
       {
         "teamName": "Komil & Friends",
-        "mediaTorres": 2.075,
-        "mediaDragoes": 0.78,
+        "mediaTorres": 2.155,
+        "mediaDragoes": 0.79,
         "mediaBarons": 0.265,
-        "mediaDuracaoPartidas": "31.86",
+        "mediaDuracaoPartidas": "32.07",
         "ckpm": "1.02"
       },
       {
         "teamName": "Alior Bank Team",
-        "mediaTorres": 3.245,
-        "mediaDragoes": 1.1,
-        "mediaBarons": 0.3175,
-        "mediaDuracaoPartidas": "32.28",
+        "mediaTorres": 3.345,
+        "mediaDragoes": 1.11,
+        "mediaBarons": 0.3325,
+        "mediaDuracaoPartidas": "32.08",
         "ckpm": "0.90"
       },
       {
         "teamName": "exeed",
-        "mediaTorres": 2.455,
-        "mediaDragoes": 1.055,
-        "mediaBarons": 0.3275,
-        "mediaDuracaoPartidas": "31.36",
-        "ckpm": "0.90"
+        "mediaTorres": 2.53,
+        "mediaDragoes": 1.04,
+        "mediaBarons": 0.3475,
+        "mediaDuracaoPartidas": "31.29",
+        "ckpm": "0.93"
       },
       {
         "teamName": "Maturalni Forsaken",
-        "mediaTorres": 3.065,
-        "mediaDragoes": 1.16,
-        "mediaBarons": 0.395,
-        "mediaDuracaoPartidas": "32.23",
-        "ckpm": "1.00"
+        "mediaTorres": 3.13,
+        "mediaDragoes": 1.21,
+        "mediaBarons": 0.4075,
+        "mediaDuracaoPartidas": "32.20",
+        "ckpm": "0.98"
       },
       {
         "teamName": "Grypciocraft Esports",
-        "mediaTorres": 3.07,
+        "mediaTorres": 3.045,
         "mediaDragoes": 0.99,
-        "mediaBarons": 0.35,
-        "mediaDuracaoPartidas": "30.34",
-        "ckpm": "1.00"
+        "mediaBarons": 0.345,
+        "mediaDuracaoPartidas": "30.38",
+        "ckpm": "1.01"
       },
       {
         "teamName": "Szaty Bobra",
@@ -751,176 +751,96 @@
       },
       {
         "teamName": "Orbit Anonymo",
-        "mediaTorres": 3.55,
-        "mediaDragoes": 1.485,
-        "mediaBarons": 0.3875,
-        "mediaDuracaoPartidas": "30.04",
-        "ckpm": "0.93"
+        "mediaTorres": 3.515,
+        "mediaDragoes": 1.455,
+        "mediaBarons": 0.38,
+        "mediaDuracaoPartidas": "29.88",
+        "ckpm": "0.97"
       }
     ]
   },
   {
-    "league": "SL",
+    "league": "SL (EMEA)",
     "teams": [
       {
         "teamName": "BISONS ECLUB",
-        "mediaTorres": 3.235,
-        "mediaDragoes": 1.055,
+        "mediaTorres": 3.18,
+        "mediaDragoes": 1.025,
         "mediaBarons": 0.4875,
-        "mediaDuracaoPartidas": "33.45",
-        "ckpm": "0.96"
+        "mediaDuracaoPartidas": "33.49",
+        "ckpm": "0.97"
       },
       {
         "teamName": "Barça eSports",
-        "mediaTorres": 3.5,
-        "mediaDragoes": 1.065,
+        "mediaTorres": 3.41,
+        "mediaDragoes": 1.01,
         "mediaBarons": 0.41,
-        "mediaDuracaoPartidas": "33.46",
-        "ckpm": "0.80"
+        "mediaDuracaoPartidas": "32.99",
+        "ckpm": "0.79"
       },
       {
         "teamName": "Movistar Riders",
-        "mediaTorres": 3.79,
-        "mediaDragoes": 1.24,
+        "mediaTorres": 3.8,
+        "mediaDragoes": 1.27,
         "mediaBarons": 0.51,
-        "mediaDuracaoPartidas": "31.04",
-        "ckpm": "0.94"
+        "mediaDuracaoPartidas": "31.13",
+        "ckpm": "0.95"
       },
       {
         "teamName": "Fnatic TQ",
-        "mediaTorres": 2.975,
-        "mediaDragoes": 1.17,
-        "mediaBarons": 0.39,
-        "mediaDuracaoPartidas": "33.21",
-        "ckpm": "0.92"
+        "mediaTorres": 2.93,
+        "mediaDragoes": 1.145,
+        "mediaBarons": 0.38,
+        "mediaDuracaoPartidas": "32.98",
+        "ckpm": "0.94"
       },
       {
         "teamName": "Rebels Gaming",
-        "mediaTorres": 3.045,
-        "mediaDragoes": 1.185,
-        "mediaBarons": 0.3825,
-        "mediaDuracaoPartidas": "31.96",
-        "ckpm": "0.85"
+        "mediaTorres": 3.07,
+        "mediaDragoes": 1.195,
+        "mediaBarons": 0.3875,
+        "mediaDuracaoPartidas": "31.77",
+        "ckpm": "0.87"
       },
       {
         "teamName": "Guasones",
-        "mediaTorres": 2.385,
-        "mediaDragoes": 0.815,
-        "mediaBarons": 0.285,
-        "mediaDuracaoPartidas": "34.15",
-        "ckpm": "0.86"
+        "mediaTorres": 2.39,
+        "mediaDragoes": 0.79,
+        "mediaBarons": 0.2775,
+        "mediaDuracaoPartidas": "34.07",
+        "ckpm": "0.87"
       },
       {
         "teamName": "Los Heretics",
-        "mediaTorres": 3.655,
-        "mediaDragoes": 1.415,
-        "mediaBarons": 0.475,
-        "mediaDuracaoPartidas": "33.58",
+        "mediaTorres": 3.595,
+        "mediaDragoes": 1.345,
+        "mediaBarons": 0.47,
+        "mediaDuracaoPartidas": "33.53",
         "ckpm": "0.88"
       },
       {
         "teamName": "Giants",
-        "mediaTorres": 3.115,
-        "mediaDragoes": 1.315,
-        "mediaBarons": 0.3725,
-        "mediaDuracaoPartidas": "31.51",
+        "mediaTorres": 3.19,
+        "mediaDragoes": 1.335,
+        "mediaBarons": 0.375,
+        "mediaDuracaoPartidas": "31.31",
         "ckpm": "0.74"
       },
       {
         "teamName": "Finetwork KOI",
-        "mediaTorres": 3.105,
-        "mediaDragoes": 1.12,
-        "mediaBarons": 0.455,
-        "mediaDuracaoPartidas": "35.63",
-        "ckpm": "0.69"
+        "mediaTorres": 3.165,
+        "mediaDragoes": 1.14,
+        "mediaBarons": 0.4475,
+        "mediaDuracaoPartidas": "35.18",
+        "ckpm": "0.71"
       },
       {
         "teamName": "UCAM Tokiers",
-        "mediaTorres": 2.455,
-        "mediaDragoes": 0.855,
-        "mediaBarons": 0.4425,
-        "mediaDuracaoPartidas": "32.61",
-        "ckpm": "0.83"
-      },
-      {
-        "teamName": "Cremas Esports",
-        "mediaTorres": 3,
-        "mediaDragoes": 1.145,
-        "mediaBarons": 0.465,
-        "mediaDuracaoPartidas": "32.96",
-        "ckpm": "0.92"
-      },
-      {
-        "teamName": "Incubus",
-        "mediaTorres": 3.65,
-        "mediaDragoes": 1.175,
-        "mediaBarons": 0.305,
-        "mediaDuracaoPartidas": "30.53",
-        "ckpm": "1.01"
-      },
-      {
-        "teamName": "Mad Kings",
-        "mediaTorres": 3.59,
-        "mediaDragoes": 1.115,
-        "mediaBarons": 0.5,
-        "mediaDuracaoPartidas": "33.67",
-        "ckpm": "0.90"
-      },
-      {
-        "teamName": "Antares Esports",
-        "mediaTorres": 1.66,
-        "mediaDragoes": 0.79,
-        "mediaBarons": 0.185,
-        "mediaDuracaoPartidas": "31.05",
-        "ckpm": "0.73"
-      },
-      {
-        "teamName": "Red Eye",
-        "mediaTorres": 2.62,
-        "mediaDragoes": 1.05,
-        "mediaBarons": 0.3575,
-        "mediaDuracaoPartidas": "31.76",
-        "ckpm": "0.91"
-      },
-      {
-        "teamName": "Vipers",
-        "mediaTorres": 3.085,
-        "mediaDragoes": 1.14,
-        "mediaBarons": 0.345,
-        "mediaDuracaoPartidas": "31.37",
-        "ckpm": "0.97"
-      },
-      {
-        "teamName": "Spectacled Bears",
-        "mediaTorres": 3.485,
-        "mediaDragoes": 1.33,
-        "mediaBarons": 0.4825,
-        "mediaDuracaoPartidas": "32.12",
-        "ckpm": "0.91"
-      },
-      {
-        "teamName": "Diamond Doves",
-        "mediaTorres": 2.465,
-        "mediaDragoes": 0.765,
-        "mediaBarons": 0.3,
-        "mediaDuracaoPartidas": "32.89",
-        "ckpm": "0.97"
-      },
-      {
-        "teamName": "unknown team",
-        "mediaTorres": 1,
-        "mediaDragoes": 0.75,
-        "mediaBarons": 0,
-        "mediaDuracaoPartidas": "31.57",
-        "ckpm": "0.76"
-      },
-      {
-        "teamName": "Universitario Esports",
-        "mediaTorres": 1.835,
-        "mediaDragoes": 1.085,
-        "mediaBarons": 0.25,
-        "mediaDuracaoPartidas": "30.50",
-        "ckpm": "1.01"
+        "mediaTorres": 2.54,
+        "mediaDragoes": 0.89,
+        "mediaBarons": 0.445,
+        "mediaDuracaoPartidas": "32.68",
+        "ckpm": "0.84"
       }
     ]
   },
@@ -929,58 +849,58 @@
     "teams": [
       {
         "teamName": "Dplus KIA",
-        "mediaTorres": 3.18,
+        "mediaTorres": 3.185,
         "mediaDragoes": 1.395,
-        "mediaBarons": 0.405,
-        "mediaDuracaoPartidas": "31.52",
+        "mediaBarons": 0.4025,
+        "mediaDuracaoPartidas": "31.48",
         "ckpm": "0.67"
       },
       {
         "teamName": "DRX",
-        "mediaTorres": 1.975,
-        "mediaDragoes": 0.82,
-        "mediaBarons": 0.2525,
-        "mediaDuracaoPartidas": "30.91",
-        "ckpm": "0.73"
+        "mediaTorres": 1.995,
+        "mediaDragoes": 0.84,
+        "mediaBarons": 0.26,
+        "mediaDuracaoPartidas": "30.93",
+        "ckpm": "0.72"
       },
       {
         "teamName": "T1",
-        "mediaTorres": 3.855,
-        "mediaDragoes": 1.38,
-        "mediaBarons": 0.495,
-        "mediaDuracaoPartidas": "31.63",
-        "ckpm": "0.79"
+        "mediaTorres": 3.725,
+        "mediaDragoes": 1.325,
+        "mediaBarons": 0.4725,
+        "mediaDuracaoPartidas": "31.71",
+        "ckpm": "0.77"
       },
       {
         "teamName": "Gen.G",
-        "mediaTorres": 3.89,
-        "mediaDragoes": 1.355,
+        "mediaTorres": 3.855,
+        "mediaDragoes": 1.335,
         "mediaBarons": 0.4825,
-        "mediaDuracaoPartidas": "31.74",
+        "mediaDuracaoPartidas": "31.93",
         "ckpm": "0.72"
       },
       {
         "teamName": "Kwangdong Freecs",
-        "mediaTorres": 2.705,
-        "mediaDragoes": 1.02,
-        "mediaBarons": 0.2,
-        "mediaDuracaoPartidas": "33.05",
+        "mediaTorres": 2.645,
+        "mediaDragoes": 1.015,
+        "mediaBarons": 0.2025,
+        "mediaDuracaoPartidas": "33.09",
         "ckpm": "0.68"
       },
       {
         "teamName": "Hanwha Life Esports",
-        "mediaTorres": 3.03,
-        "mediaDragoes": 1.03,
-        "mediaBarons": 0.3975,
-        "mediaDuracaoPartidas": "32.71",
-        "ckpm": "0.65"
+        "mediaTorres": 3.095,
+        "mediaDragoes": 1.025,
+        "mediaBarons": 0.4075,
+        "mediaDuracaoPartidas": "32.55",
+        "ckpm": "0.66"
       },
       {
         "teamName": "Nongshim RedForce",
-        "mediaTorres": 1.66,
-        "mediaDragoes": 0.715,
-        "mediaBarons": 0.18,
-        "mediaDuracaoPartidas": "30.64",
+        "mediaTorres": 1.81,
+        "mediaDragoes": 0.765,
+        "mediaBarons": 0.21,
+        "mediaDuracaoPartidas": "30.66",
         "ckpm": "0.74"
       },
       {
@@ -993,27 +913,27 @@
       },
       {
         "teamName": "KT Rolster",
-        "mediaTorres": 3.515,
-        "mediaDragoes": 1.33,
-        "mediaBarons": 0.3825,
-        "mediaDuracaoPartidas": "31.34",
-        "ckpm": "0.67"
+        "mediaTorres": 3.56,
+        "mediaDragoes": 1.335,
+        "mediaBarons": 0.3875,
+        "mediaDuracaoPartidas": "31.17",
+        "ckpm": "0.68"
       },
       {
         "teamName": "Liiv SANDBOX",
-        "mediaTorres": 2.55,
-        "mediaDragoes": 1.04,
-        "mediaBarons": 0.325,
-        "mediaDuracaoPartidas": "32.57",
+        "mediaTorres": 2.585,
+        "mediaDragoes": 1.035,
+        "mediaBarons": 0.34,
+        "mediaDuracaoPartidas": "32.58",
         "ckpm": "0.70"
       },
       {
         "teamName": "OKSavingsBank BRION",
-        "mediaTorres": 2.2,
-        "mediaDragoes": 0.915,
-        "mediaBarons": 0.3,
-        "mediaDuracaoPartidas": "32.30",
-        "ckpm": "0.58"
+        "mediaTorres": 2.36,
+        "mediaDragoes": 0.97,
+        "mediaBarons": 0.32,
+        "mediaDuracaoPartidas": "32.36",
+        "ckpm": "0.57"
       }
     ]
   },
@@ -1022,83 +942,83 @@
     "teams": [
       {
         "teamName": "Team BDS Academy",
-        "mediaTorres": 2.975,
-        "mediaDragoes": 1.255,
-        "mediaBarons": 0.32,
-        "mediaDuracaoPartidas": "31.16",
-        "ckpm": "0.85"
+        "mediaTorres": 2.94,
+        "mediaDragoes": 1.225,
+        "mediaBarons": 0.3225,
+        "mediaDuracaoPartidas": "31.25",
+        "ckpm": "0.86"
       },
       {
         "teamName": "LDLC OL",
-        "mediaTorres": 3.425,
-        "mediaDragoes": 1.415,
-        "mediaBarons": 0.4875,
-        "mediaDuracaoPartidas": "33.66",
-        "ckpm": "0.75"
+        "mediaTorres": 3.355,
+        "mediaDragoes": 1.395,
+        "mediaBarons": 0.465,
+        "mediaDuracaoPartidas": "33.86",
+        "ckpm": "0.76"
       },
       {
         "teamName": "BK ROG Esports",
-        "mediaTorres": 3.405,
-        "mediaDragoes": 1.14,
-        "mediaBarons": 0.5325,
-        "mediaDuracaoPartidas": "32.03",
+        "mediaTorres": 3.555,
+        "mediaDragoes": 1.2,
+        "mediaBarons": 0.5725,
+        "mediaDuracaoPartidas": "32.13",
         "ckpm": "0.85"
       },
       {
         "teamName": "Solary",
-        "mediaTorres": 3.095,
-        "mediaDragoes": 1.14,
-        "mediaBarons": 0.39,
-        "mediaDuracaoPartidas": "31.81",
-        "ckpm": "0.79"
+        "mediaTorres": 3.09,
+        "mediaDragoes": 1.13,
+        "mediaBarons": 0.3825,
+        "mediaDuracaoPartidas": "31.95",
+        "ckpm": "0.80"
       },
       {
         "teamName": "Vitality.Bee",
-        "mediaTorres": 3.09,
-        "mediaDragoes": 1.135,
-        "mediaBarons": 0.395,
-        "mediaDuracaoPartidas": "33.51",
-        "ckpm": "0.73"
+        "mediaTorres": 3.1,
+        "mediaDragoes": 1.13,
+        "mediaBarons": 0.385,
+        "mediaDuracaoPartidas": "33.52",
+        "ckpm": "0.76"
       },
       {
         "teamName": "Aegis",
-        "mediaTorres": 3.05,
-        "mediaDragoes": 1.27,
-        "mediaBarons": 0.41,
-        "mediaDuracaoPartidas": "32.88",
+        "mediaTorres": 2.975,
+        "mediaDragoes": 1.215,
+        "mediaBarons": 0.3925,
+        "mediaDuracaoPartidas": "32.32",
         "ckpm": "0.78"
       },
       {
         "teamName": "Team GO",
-        "mediaTorres": 3.435,
-        "mediaDragoes": 1.02,
-        "mediaBarons": 0.555,
-        "mediaDuracaoPartidas": "33.92",
+        "mediaTorres": 3.335,
+        "mediaDragoes": 1.01,
+        "mediaBarons": 0.54,
+        "mediaDuracaoPartidas": "33.56",
         "ckpm": "0.74"
       },
       {
         "teamName": "Karmine Corp",
-        "mediaTorres": 3.305,
-        "mediaDragoes": 1.225,
-        "mediaBarons": 0.38,
-        "mediaDuracaoPartidas": "32.02",
-        "ckpm": "0.85"
+        "mediaTorres": 3.255,
+        "mediaDragoes": 1.23,
+        "mediaBarons": 0.385,
+        "mediaDuracaoPartidas": "31.78",
+        "ckpm": "0.84"
       },
       {
         "teamName": "IZI Dream",
-        "mediaTorres": 1.865,
-        "mediaDragoes": 0.805,
-        "mediaBarons": 0.2125,
-        "mediaDuracaoPartidas": "31.06",
-        "ckpm": "0.80"
+        "mediaTorres": 2,
+        "mediaDragoes": 0.855,
+        "mediaBarons": 0.2575,
+        "mediaDuracaoPartidas": "31.31",
+        "ckpm": "0.81"
       },
       {
         "teamName": "GameWard",
-        "mediaTorres": 2.825,
-        "mediaDragoes": 1.15,
-        "mediaBarons": 0.3375,
-        "mediaDuracaoPartidas": "33.56",
-        "ckpm": "0.74"
+        "mediaTorres": 2.81,
+        "mediaDragoes": 1.115,
+        "mediaBarons": 0.32,
+        "mediaDuracaoPartidas": "33.14",
+        "ckpm": "0.75"
       }
     ]
   },
@@ -1107,82 +1027,82 @@
     "teams": [
       {
         "teamName": "SK Gaming Prime",
-        "mediaTorres": 3.885,
-        "mediaDragoes": 1.265,
-        "mediaBarons": 0.5225,
-        "mediaDuracaoPartidas": "31.66",
+        "mediaTorres": 3.895,
+        "mediaDragoes": 1.28,
+        "mediaBarons": 0.52,
+        "mediaDuracaoPartidas": "31.52",
         "ckpm": "0.85"
       },
       {
         "teamName": "Unicorns of Love Sexy Edition",
-        "mediaTorres": 3.92,
-        "mediaDragoes": 1.175,
-        "mediaBarons": 0.5225,
-        "mediaDuracaoPartidas": "31.53",
-        "ckpm": "0.88"
+        "mediaTorres": 4,
+        "mediaDragoes": 1.24,
+        "mediaBarons": 0.5325,
+        "mediaDuracaoPartidas": "31.62",
+        "ckpm": "0.89"
       },
       {
         "teamName": "E WIE EINFACH E-SPORTS",
-        "mediaTorres": 2.545,
-        "mediaDragoes": 1.045,
-        "mediaBarons": 0.235,
-        "mediaDuracaoPartidas": "29.67",
-        "ckpm": "0.91"
+        "mediaTorres": 2.47,
+        "mediaDragoes": 1.015,
+        "mediaBarons": 0.2225,
+        "mediaDuracaoPartidas": "29.76",
+        "ckpm": "0.92"
       },
       {
         "teamName": "MOUZ",
-        "mediaTorres": 3.185,
-        "mediaDragoes": 1.22,
-        "mediaBarons": 0.4525,
-        "mediaDuracaoPartidas": "32.73",
+        "mediaTorres": 3.04,
+        "mediaDragoes": 1.175,
+        "mediaBarons": 0.4275,
+        "mediaDuracaoPartidas": "32.64",
         "ckpm": "0.82"
       },
       {
         "teamName": "Eintracht Spandau",
-        "mediaTorres": 3.96,
-        "mediaDragoes": 1.245,
-        "mediaBarons": 0.5275,
-        "mediaDuracaoPartidas": "31.79",
-        "ckpm": "0.80"
+        "mediaTorres": 3.935,
+        "mediaDragoes": 1.23,
+        "mediaBarons": 0.5375,
+        "mediaDuracaoPartidas": "32.03",
+        "ckpm": "0.79"
       },
       {
         "teamName": "Eintracht Frankfurt",
-        "mediaTorres": 2.75,
-        "mediaDragoes": 1.31,
-        "mediaBarons": 0.3675,
-        "mediaDuracaoPartidas": "36.00",
+        "mediaTorres": 2.735,
+        "mediaDragoes": 1.29,
+        "mediaBarons": 0.3475,
+        "mediaDuracaoPartidas": "35.72",
         "ckpm": "0.90"
       },
       {
         "teamName": "Berlin International Gaming",
-        "mediaTorres": 3.265,
-        "mediaDragoes": 1.19,
-        "mediaBarons": 0.3775,
-        "mediaDuracaoPartidas": "31.16",
-        "ckpm": "0.92"
+        "mediaTorres": 3.285,
+        "mediaDragoes": 1.18,
+        "mediaBarons": 0.3825,
+        "mediaDuracaoPartidas": "31.32",
+        "ckpm": "0.93"
       },
       {
         "teamName": "NNO Prime",
-        "mediaTorres": 2.25,
-        "mediaDragoes": 0.825,
-        "mediaBarons": 0.22,
-        "mediaDuracaoPartidas": "32.52",
-        "ckpm": "0.70"
+        "mediaTorres": 2.22,
+        "mediaDragoes": 0.835,
+        "mediaBarons": 0.235,
+        "mediaDuracaoPartidas": "32.33",
+        "ckpm": "0.71"
       },
       {
         "teamName": "GamerLegion",
-        "mediaTorres": 2.31,
-        "mediaDragoes": 0.91,
-        "mediaBarons": 0.3225,
-        "mediaDuracaoPartidas": "32.83",
+        "mediaTorres": 2.355,
+        "mediaDragoes": 0.915,
+        "mediaBarons": 0.3275,
+        "mediaDuracaoPartidas": "32.73",
         "ckpm": "0.83"
       },
       {
         "teamName": "FC Schalke 04 Esports",
-        "mediaTorres": 3.075,
-        "mediaDragoes": 1.255,
-        "mediaBarons": 0.4475,
-        "mediaDuracaoPartidas": "34.10",
+        "mediaTorres": 3.1,
+        "mediaDragoes": 1.23,
+        "mediaBarons": 0.45,
+        "mediaDuracaoPartidas": "34.02",
         "ckpm": "0.76"
       }
     ]
@@ -1281,6 +1201,91 @@
     ]
   },
   {
+    "league": "SL (LATAM)",
+    "teams": [
+      {
+        "teamName": "Cremas Esports",
+        "mediaTorres": 3,
+        "mediaDragoes": 1.145,
+        "mediaBarons": 0.465,
+        "mediaDuracaoPartidas": "32.96",
+        "ckpm": "0.92"
+      },
+      {
+        "teamName": "Incubus",
+        "mediaTorres": 3.65,
+        "mediaDragoes": 1.175,
+        "mediaBarons": 0.305,
+        "mediaDuracaoPartidas": "30.53",
+        "ckpm": "1.01"
+      },
+      {
+        "teamName": "Mad Kings",
+        "mediaTorres": 3.59,
+        "mediaDragoes": 1.115,
+        "mediaBarons": 0.5,
+        "mediaDuracaoPartidas": "33.67",
+        "ckpm": "0.90"
+      },
+      {
+        "teamName": "Antares Esports",
+        "mediaTorres": 1.66,
+        "mediaDragoes": 0.79,
+        "mediaBarons": 0.185,
+        "mediaDuracaoPartidas": "31.05",
+        "ckpm": "0.73"
+      },
+      {
+        "teamName": "Red Eye",
+        "mediaTorres": 2.62,
+        "mediaDragoes": 1.05,
+        "mediaBarons": 0.3575,
+        "mediaDuracaoPartidas": "31.76",
+        "ckpm": "0.91"
+      },
+      {
+        "teamName": "Vipers",
+        "mediaTorres": 3.085,
+        "mediaDragoes": 1.14,
+        "mediaBarons": 0.345,
+        "mediaDuracaoPartidas": "31.37",
+        "ckpm": "0.97"
+      },
+      {
+        "teamName": "Spectacled Bears",
+        "mediaTorres": 3.485,
+        "mediaDragoes": 1.33,
+        "mediaBarons": 0.4825,
+        "mediaDuracaoPartidas": "32.12",
+        "ckpm": "0.91"
+      },
+      {
+        "teamName": "Diamond Doves",
+        "mediaTorres": 2.465,
+        "mediaDragoes": 0.765,
+        "mediaBarons": 0.3,
+        "mediaDuracaoPartidas": "32.89",
+        "ckpm": "0.97"
+      },
+      {
+        "teamName": "unknown team",
+        "mediaTorres": 1,
+        "mediaDragoes": 0.75,
+        "mediaBarons": 0,
+        "mediaDuracaoPartidas": "31.57",
+        "ckpm": "0.76"
+      },
+      {
+        "teamName": "Universitario Esports",
+        "mediaTorres": 1.835,
+        "mediaDragoes": 1.085,
+        "mediaBarons": 0.25,
+        "mediaDuracaoPartidas": "30.50",
+        "ckpm": "1.01"
+      }
+    ]
+  },
+  {
     "league": "VL",
     "teams": [
       {
@@ -1354,83 +1359,83 @@
     "teams": [
       {
         "teamName": "LOUD",
-        "mediaTorres": 3.695,
-        "mediaDragoes": 1.365,
-        "mediaBarons": 0.5125,
-        "mediaDuracaoPartidas": "33.28",
-        "ckpm": "0.85"
-      },
-      {
-        "teamName": "paiN Gaming",
-        "mediaTorres": 3.465,
-        "mediaDragoes": 1.265,
-        "mediaBarons": 0.455,
-        "mediaDuracaoPartidas": "34.06",
-        "ckpm": "0.73"
-      },
-      {
-        "teamName": "Liberty",
-        "mediaTorres": 2.485,
-        "mediaDragoes": 1.05,
-        "mediaBarons": 0.3,
-        "mediaDuracaoPartidas": "34.93",
-        "ckpm": "0.80"
-      },
-      {
-        "teamName": "KaBuM! Esports",
-        "mediaTorres": 2.515,
-        "mediaDragoes": 1,
-        "mediaBarons": 0.3,
-        "mediaDuracaoPartidas": "33.87",
+        "mediaTorres": 3.735,
+        "mediaDragoes": 1.395,
+        "mediaBarons": 0.5225,
+        "mediaDuracaoPartidas": "33.01",
         "ckpm": "0.84"
       },
       {
+        "teamName": "paiN Gaming",
+        "mediaTorres": 3.555,
+        "mediaDragoes": 1.265,
+        "mediaBarons": 0.4675,
+        "mediaDuracaoPartidas": "33.81",
+        "ckpm": "0.74"
+      },
+      {
+        "teamName": "Liberty",
+        "mediaTorres": 2.36,
+        "mediaDragoes": 1.015,
+        "mediaBarons": 0.2825,
+        "mediaDuracaoPartidas": "34.38",
+        "ckpm": "0.79"
+      },
+      {
+        "teamName": "KaBuM! Esports",
+        "mediaTorres": 2.42,
+        "mediaDragoes": 0.97,
+        "mediaBarons": 0.2825,
+        "mediaDuracaoPartidas": "33.72",
+        "ckpm": "0.82"
+      },
+      {
         "teamName": "Los Grandes",
-        "mediaTorres": 3.07,
-        "mediaDragoes": 1.145,
-        "mediaBarons": 0.4275,
-        "mediaDuracaoPartidas": "33.22",
-        "ckpm": "0.81"
+        "mediaTorres": 3.09,
+        "mediaDragoes": 1.17,
+        "mediaBarons": 0.455,
+        "mediaDuracaoPartidas": "33.50",
+        "ckpm": "0.82"
       },
       {
         "teamName": "Fluxo",
-        "mediaTorres": 3.605,
-        "mediaDragoes": 1.29,
-        "mediaBarons": 0.455,
-        "mediaDuracaoPartidas": "33.80",
+        "mediaTorres": 3.655,
+        "mediaDragoes": 1.27,
+        "mediaBarons": 0.4725,
+        "mediaDuracaoPartidas": "33.83",
         "ckpm": "0.76"
       },
       {
         "teamName": "RED Canids",
-        "mediaTorres": 3.515,
-        "mediaDragoes": 1.265,
-        "mediaBarons": 0.605,
+        "mediaTorres": 3.4,
+        "mediaDragoes": 1.25,
+        "mediaBarons": 0.575,
         "mediaDuracaoPartidas": "34.84",
         "ckpm": "0.75"
       },
       {
         "teamName": "INTZ",
-        "mediaTorres": 3.2,
-        "mediaDragoes": 1.165,
-        "mediaBarons": 0.4825,
-        "mediaDuracaoPartidas": "32.89",
-        "ckpm": "0.94"
+        "mediaTorres": 3.205,
+        "mediaDragoes": 1.17,
+        "mediaBarons": 0.47,
+        "mediaDuracaoPartidas": "32.99",
+        "ckpm": "0.91"
       },
       {
         "teamName": "Vivo Keyd Stars",
-        "mediaTorres": 2.95,
-        "mediaDragoes": 1.115,
-        "mediaBarons": 0.3175,
-        "mediaDuracaoPartidas": "32.82",
-        "ckpm": "0.93"
+        "mediaTorres": 2.955,
+        "mediaDragoes": 1.125,
+        "mediaBarons": 0.3125,
+        "mediaDuracaoPartidas": "32.95",
+        "ckpm": "0.94"
       },
       {
         "teamName": "FURIA",
-        "mediaTorres": 3.245,
-        "mediaDragoes": 1.305,
-        "mediaBarons": 0.44,
-        "mediaDuracaoPartidas": "35.93",
-        "ckpm": "0.71"
+        "mediaTorres": 3.3,
+        "mediaDragoes": 1.3,
+        "mediaBarons": 0.465,
+        "mediaDuracaoPartidas": "35.97",
+        "ckpm": "0.70"
       }
     ]
   },
@@ -1439,35 +1444,35 @@
     "teams": [
       {
         "teamName": "Excel Esports",
-        "mediaTorres": 2.705,
-        "mediaDragoes": 1.14,
-        "mediaBarons": 0.36,
-        "mediaDuracaoPartidas": "33.73",
-        "ckpm": "0.79"
+        "mediaTorres": 2.745,
+        "mediaDragoes": 1.175,
+        "mediaBarons": 0.3925,
+        "mediaDuracaoPartidas": "33.67",
+        "ckpm": "0.85"
       },
       {
         "teamName": "G2 Esports",
-        "mediaTorres": 3.945,
-        "mediaDragoes": 1.395,
-        "mediaBarons": 0.465,
-        "mediaDuracaoPartidas": "29.59",
-        "ckpm": "0.99"
+        "mediaTorres": 3.91,
+        "mediaDragoes": 1.35,
+        "mediaBarons": 0.46,
+        "mediaDuracaoPartidas": "29.90",
+        "ckpm": "1.01"
       },
       {
         "teamName": "KOI",
         "mediaTorres": 2.775,
-        "mediaDragoes": 0.765,
+        "mediaDragoes": 0.745,
         "mediaBarons": 0.265,
-        "mediaDuracaoPartidas": "32.12",
+        "mediaDuracaoPartidas": "32.24",
         "ckpm": "0.79"
       },
       {
         "teamName": "Team BDS",
-        "mediaTorres": 3.41,
-        "mediaDragoes": 1.34,
-        "mediaBarons": 0.48,
-        "mediaDuracaoPartidas": "33.29",
-        "ckpm": "0.82"
+        "mediaTorres": 3.345,
+        "mediaDragoes": 1.325,
+        "mediaBarons": 0.47,
+        "mediaDuracaoPartidas": "33.32",
+        "ckpm": "0.81"
       },
       {
         "teamName": "Astralis",
@@ -1479,26 +1484,26 @@
       },
       {
         "teamName": "Team Heretics",
-        "mediaTorres": 2.985,
-        "mediaDragoes": 1.21,
-        "mediaBarons": 0.36,
-        "mediaDuracaoPartidas": "33.03",
-        "ckpm": "0.91"
+        "mediaTorres": 3.2,
+        "mediaDragoes": 1.25,
+        "mediaBarons": 0.4125,
+        "mediaDuracaoPartidas": "33.17",
+        "ckpm": "0.89"
       },
       {
         "teamName": "MAD Lions",
-        "mediaTorres": 3.3,
-        "mediaDragoes": 1.18,
-        "mediaBarons": 0.3925,
-        "mediaDuracaoPartidas": "30.69",
+        "mediaTorres": 3.265,
+        "mediaDragoes": 1.175,
+        "mediaBarons": 0.39,
+        "mediaDuracaoPartidas": "30.77",
         "ckpm": "0.95"
       },
       {
         "teamName": "SK Gaming",
-        "mediaTorres": 3.075,
-        "mediaDragoes": 0.97,
-        "mediaBarons": 0.405,
-        "mediaDuracaoPartidas": "31.99",
+        "mediaTorres": 3.03,
+        "mediaDragoes": 0.95,
+        "mediaBarons": 0.3975,
+        "mediaDuracaoPartidas": "31.95",
         "ckpm": "0.79"
       },
       {
@@ -1511,9 +1516,9 @@
       },
       {
         "teamName": "Fnatic",
-        "mediaTorres": 3.015,
-        "mediaDragoes": 1.085,
-        "mediaBarons": 0.3725,
+        "mediaTorres": 3.18,
+        "mediaDragoes": 1.13,
+        "mediaBarons": 0.3975,
         "mediaDuracaoPartidas": "32.23",
         "ckpm": "0.87"
       }
@@ -1540,19 +1545,19 @@
       },
       {
         "teamName": "Team Liquid Challengers",
-        "mediaTorres": 3.53,
-        "mediaDragoes": 1.28,
-        "mediaBarons": 0.405,
-        "mediaDuracaoPartidas": "31.14",
+        "mediaTorres": 3.495,
+        "mediaDragoes": 1.275,
+        "mediaBarons": 0.3925,
+        "mediaDuracaoPartidas": "31.09",
         "ckpm": "0.87"
       },
       {
         "teamName": "Cincinnati Fear",
-        "mediaTorres": 3.38,
-        "mediaDragoes": 1.085,
-        "mediaBarons": 0.3725,
-        "mediaDuracaoPartidas": "30.81",
-        "ckpm": "0.99"
+        "mediaTorres": 3.45,
+        "mediaDragoes": 1.115,
+        "mediaBarons": 0.3775,
+        "mediaDuracaoPartidas": "30.87",
+        "ckpm": "0.98"
       },
       {
         "teamName": "100 Thieves Challengers",
@@ -1596,19 +1601,19 @@
       },
       {
         "teamName": "Wildcard Gaming",
-        "mediaTorres": 2.985,
-        "mediaDragoes": 1.255,
-        "mediaBarons": 0.455,
-        "mediaDuracaoPartidas": "30.37",
-        "ckpm": "0.99"
+        "mediaTorres": 2.965,
+        "mediaDragoes": 1.245,
+        "mediaBarons": 0.45,
+        "mediaDuracaoPartidas": "30.51",
+        "ckpm": "0.98"
       },
       {
         "teamName": "Evil Geniuses Challengers",
-        "mediaTorres": 2.555,
-        "mediaDragoes": 0.9,
-        "mediaBarons": 0.295,
-        "mediaDuracaoPartidas": "30.82",
-        "ckpm": "0.84"
+        "mediaTorres": 2.595,
+        "mediaDragoes": 0.915,
+        "mediaBarons": 0.3075,
+        "mediaDuracaoPartidas": "30.93",
+        "ckpm": "0.83"
       },
       {
         "teamName": "Team Liquid First",
@@ -1636,19 +1641,19 @@
       },
       {
         "teamName": "AOE Gold",
-        "mediaTorres": 2.895,
-        "mediaDragoes": 1.11,
-        "mediaBarons": 0.3775,
-        "mediaDuracaoPartidas": "31.73",
+        "mediaTorres": 2.795,
+        "mediaDragoes": 1.09,
+        "mediaBarons": 0.365,
+        "mediaDuracaoPartidas": "31.68",
         "ckpm": "0.94"
       },
       {
         "teamName": "FlyQuest Challengers",
-        "mediaTorres": 3.73,
-        "mediaDragoes": 1.035,
-        "mediaBarons": 0.445,
-        "mediaDuracaoPartidas": "30.90",
-        "ckpm": "0.99"
+        "mediaTorres": 3.74,
+        "mediaDragoes": 1.05,
+        "mediaBarons": 0.4425,
+        "mediaDuracaoPartidas": "31.10",
+        "ckpm": "0.98"
       },
       {
         "teamName": "ConViction",
@@ -1660,10 +1665,10 @@
       },
       {
         "teamName": "Maryville University",
-        "mediaTorres": 3.53,
-        "mediaDragoes": 1.185,
-        "mediaBarons": 0.4925,
-        "mediaDuracaoPartidas": "31.72",
+        "mediaTorres": 3.42,
+        "mediaDragoes": 1.14,
+        "mediaBarons": 0.48,
+        "mediaDuracaoPartidas": "31.69",
         "ckpm": "0.99"
       },
       {
@@ -1724,11 +1729,11 @@
       },
       {
         "teamName": "CB Gaming",
-        "mediaTorres": 2.275,
-        "mediaDragoes": 0.955,
-        "mediaBarons": 0.2275,
-        "mediaDuracaoPartidas": "32.26",
-        "ckpm": "1.16"
+        "mediaTorres": 2.655,
+        "mediaDragoes": 1.04,
+        "mediaBarons": 0.3075,
+        "mediaDuracaoPartidas": "32.13",
+        "ckpm": "1.11"
       },
       {
         "teamName": "Illinois State University",
@@ -1756,27 +1761,27 @@
       },
       {
         "teamName": "LiT Esports",
-        "mediaTorres": 2.79,
-        "mediaDragoes": 0.73,
-        "mediaBarons": 0.2875,
-        "mediaDuracaoPartidas": "28.63",
+        "mediaTorres": 2.76,
+        "mediaDragoes": 0.775,
+        "mediaBarons": 0.2925,
+        "mediaDuracaoPartidas": "29.03",
         "ckpm": "1.09"
       },
       {
         "teamName": "Winthrop University",
-        "mediaTorres": 3.19,
+        "mediaTorres": 3.095,
         "mediaDragoes": 1.015,
-        "mediaBarons": 0.3275,
-        "mediaDuracaoPartidas": "29.10",
-        "ckpm": "1.07"
+        "mediaBarons": 0.3075,
+        "mediaDuracaoPartidas": "29.25",
+        "ckpm": "1.06"
       },
       {
         "teamName": "Team Ambition",
-        "mediaTorres": 3.24,
-        "mediaDragoes": 1,
-        "mediaBarons": 0.3175,
-        "mediaDuracaoPartidas": "29.99",
-        "ckpm": "1.03"
+        "mediaTorres": 3.155,
+        "mediaDragoes": 0.97,
+        "mediaBarons": 0.315,
+        "mediaDuracaoPartidas": "29.79",
+        "ckpm": "1.05"
       },
       {
         "teamName": "Dream Team",
@@ -1804,11 +1809,11 @@
       },
       {
         "teamName": "CCG Esports",
-        "mediaTorres": 3.275,
-        "mediaDragoes": 1.18,
-        "mediaBarons": 0.3875,
-        "mediaDuracaoPartidas": "33.27",
-        "ckpm": "1.03"
+        "mediaTorres": 3.145,
+        "mediaDragoes": 1.105,
+        "mediaBarons": 0.355,
+        "mediaDuracaoPartidas": "32.66",
+        "ckpm": "1.01"
       },
       {
         "teamName": "Miracle",
@@ -1828,10 +1833,10 @@
       },
       {
         "teamName": "Mirage Alliance",
-        "mediaTorres": 3.445,
-        "mediaDragoes": 1.11,
-        "mediaBarons": 0.445,
-        "mediaDuracaoPartidas": "29.08",
+        "mediaTorres": 3.575,
+        "mediaDragoes": 1.125,
+        "mediaBarons": 0.45,
+        "mediaDuracaoPartidas": "28.87",
         "ckpm": "1.07"
       },
       {
@@ -1860,11 +1865,11 @@
       },
       {
         "teamName": "Disguised",
-        "mediaTorres": 3.755,
-        "mediaDragoes": 1.325,
-        "mediaBarons": 0.4725,
-        "mediaDuracaoPartidas": "32.10",
-        "ckpm": "0.81"
+        "mediaTorres": 3.775,
+        "mediaDragoes": 1.355,
+        "mediaBarons": 0.475,
+        "mediaDuracaoPartidas": "32.16",
+        "ckpm": "0.82"
       },
       {
         "teamName": "unknown team",
@@ -1873,6 +1878,86 @@
         "mediaBarons": 0.235,
         "mediaDuracaoPartidas": "29.44",
         "ckpm": "1.12"
+      },
+      {
+        "teamName": "Teamless Revenge",
+        "mediaTorres": 4.25,
+        "mediaDragoes": 1.25,
+        "mediaBarons": 0.5,
+        "mediaDuracaoPartidas": "26.52",
+        "ckpm": "1.32"
+      },
+      {
+        "teamName": "Return of the Middlesticks",
+        "mediaTorres": 1,
+        "mediaDragoes": 0,
+        "mediaBarons": 0,
+        "mediaDuracaoPartidas": "27.04",
+        "ckpm": "1.10"
+      },
+      {
+        "teamName": "Team Coachify",
+        "mediaTorres": 4.335,
+        "mediaDragoes": 1.335,
+        "mediaBarons": 0.6675,
+        "mediaDuracaoPartidas": "32.28",
+        "ckpm": "1.24"
+      },
+      {
+        "teamName": "Kelyx's Grandpa Gamers",
+        "mediaTorres": 2.5,
+        "mediaDragoes": 0.835,
+        "mediaBarons": 0.3325,
+        "mediaDuracaoPartidas": "32.28",
+        "ckpm": "1.24"
+      },
+      {
+        "teamName": "Gentle Hearts Gaming",
+        "mediaTorres": 4.25,
+        "mediaDragoes": 1,
+        "mediaBarons": 0.5,
+        "mediaDuracaoPartidas": "23.95",
+        "ckpm": "1.17"
+      },
+      {
+        "teamName": "Komodo",
+        "mediaTorres": 0.5,
+        "mediaDragoes": 0.5,
+        "mediaBarons": 0,
+        "mediaDuracaoPartidas": "23.95",
+        "ckpm": "1.17"
+      },
+      {
+        "teamName": "Cold Hearted",
+        "mediaTorres": 3.835,
+        "mediaDragoes": 0.835,
+        "mediaBarons": 0.5,
+        "mediaDuracaoPartidas": "32.56",
+        "ckpm": "1.08"
+      },
+      {
+        "teamName": "Team E Turner",
+        "mediaTorres": 4.5,
+        "mediaDragoes": 1.25,
+        "mediaBarons": 0.5,
+        "mediaDuracaoPartidas": "25.31",
+        "ckpm": "1.57"
+      },
+      {
+        "teamName": "Aporia",
+        "mediaTorres": 0.5,
+        "mediaDragoes": 0.5,
+        "mediaBarons": 0,
+        "mediaDuracaoPartidas": "25.31",
+        "ckpm": "1.57"
+      },
+      {
+        "teamName": "Apex Mission Impossible",
+        "mediaTorres": 4.5,
+        "mediaDragoes": 1.5,
+        "mediaBarons": 0.5,
+        "mediaDuracaoPartidas": "25.91",
+        "ckpm": "0.79"
       }
     ]
   },
@@ -1881,19 +1966,19 @@
     "teams": [
       {
         "teamName": "Team Bliss",
-        "mediaTorres": 3.835,
-        "mediaDragoes": 1.37,
-        "mediaBarons": 0.465,
-        "mediaDuracaoPartidas": "30.19",
+        "mediaTorres": 3.87,
+        "mediaDragoes": 1.335,
+        "mediaBarons": 0.49,
+        "mediaDuracaoPartidas": "30.12",
         "ckpm": "1.08"
       },
       {
         "teamName": "Chiefs Esports Club",
-        "mediaTorres": 3.68,
-        "mediaDragoes": 1.31,
-        "mediaBarons": 0.455,
-        "mediaDuracaoPartidas": "29.39",
-        "ckpm": "1.10"
+        "mediaTorres": 3.54,
+        "mediaDragoes": 1.335,
+        "mediaBarons": 0.4325,
+        "mediaDuracaoPartidas": "29.49",
+        "ckpm": "1.09"
       },
       {
         "teamName": "Ground Zero Gaming",
@@ -1921,10 +2006,10 @@
       },
       {
         "teamName": "MAMMOTH",
-        "mediaTorres": 2.415,
-        "mediaDragoes": 0.725,
-        "mediaBarons": 0.3275,
-        "mediaDuracaoPartidas": "27.20",
+        "mediaTorres": 2.33,
+        "mediaDragoes": 0.705,
+        "mediaBarons": 0.3125,
+        "mediaDuracaoPartidas": "27.57",
         "ckpm": "1.10"
       },
       {
@@ -1958,83 +2043,83 @@
     "teams": [
       {
         "teamName": "LOUD Academy",
-        "mediaTorres": 2.9,
-        "mediaDragoes": 1.085,
-        "mediaBarons": 0.3175,
-        "mediaDuracaoPartidas": "33.46",
-        "ckpm": "0.85"
+        "mediaTorres": 2.875,
+        "mediaDragoes": 1.08,
+        "mediaBarons": 0.3275,
+        "mediaDuracaoPartidas": "33.63",
+        "ckpm": "0.84"
       },
       {
         "teamName": "paiN Gaming Academy",
-        "mediaTorres": 3.2,
-        "mediaDragoes": 0.965,
-        "mediaBarons": 0.3825,
-        "mediaDuracaoPartidas": "32.71",
+        "mediaTorres": 3.17,
+        "mediaDragoes": 0.97,
+        "mediaBarons": 0.375,
+        "mediaDuracaoPartidas": "32.62",
         "ckpm": "0.85"
       },
       {
         "teamName": "Liberty Academy",
-        "mediaTorres": 2.515,
-        "mediaDragoes": 1.155,
-        "mediaBarons": 0.275,
-        "mediaDuracaoPartidas": "32.69",
-        "ckpm": "0.89"
+        "mediaTorres": 2.705,
+        "mediaDragoes": 1.19,
+        "mediaBarons": 0.2975,
+        "mediaDuracaoPartidas": "32.48",
+        "ckpm": "0.91"
       },
       {
         "teamName": "KaBuM! Academy",
-        "mediaTorres": 3.65,
-        "mediaDragoes": 1.15,
+        "mediaTorres": 3.585,
+        "mediaDragoes": 1.165,
         "mediaBarons": 0.4875,
-        "mediaDuracaoPartidas": "32.48",
-        "ckpm": "0.94"
+        "mediaDuracaoPartidas": "33.08",
+        "ckpm": "0.92"
       },
       {
         "teamName": "Los Grandes Academy",
-        "mediaTorres": 2.945,
-        "mediaDragoes": 1.18,
-        "mediaBarons": 0.4,
-        "mediaDuracaoPartidas": "33.72",
-        "ckpm": "0.83"
+        "mediaTorres": 2.86,
+        "mediaDragoes": 1.16,
+        "mediaBarons": 0.3825,
+        "mediaDuracaoPartidas": "33.52",
+        "ckpm": "0.82"
       },
       {
         "teamName": "Fluxo Academy",
-        "mediaTorres": 2.835,
-        "mediaDragoes": 1.115,
-        "mediaBarons": 0.4325,
-        "mediaDuracaoPartidas": "31.54",
+        "mediaTorres": 2.72,
+        "mediaDragoes": 1.065,
+        "mediaBarons": 0.4075,
+        "mediaDuracaoPartidas": "31.24",
         "ckpm": "0.92"
       },
       {
         "teamName": "RED Academy",
-        "mediaTorres": 3.12,
-        "mediaDragoes": 1.18,
-        "mediaBarons": 0.455,
-        "mediaDuracaoPartidas": "32.78",
-        "ckpm": "0.89"
+        "mediaTorres": 3.13,
+        "mediaDragoes": 1.215,
+        "mediaBarons": 0.4575,
+        "mediaDuracaoPartidas": "32.87",
+        "ckpm": "0.88"
       },
       {
         "teamName": "INTZ Academy",
-        "mediaTorres": 3.01,
+        "mediaTorres": 3,
         "mediaDragoes": 1.055,
-        "mediaBarons": 0.3625,
-        "mediaDuracaoPartidas": "31.37",
+        "mediaBarons": 0.3575,
+        "mediaDuracaoPartidas": "31.47",
         "ckpm": "0.89"
       },
       {
         "teamName": "Vivo Keyd Stars Academy",
-        "mediaTorres": 3.56,
+        "mediaTorres": 3.61,
         "mediaDragoes": 1.355,
         "mediaBarons": 0.46,
-        "mediaDuracaoPartidas": "31.83",
+        "mediaDuracaoPartidas": "31.58",
         "ckpm": "0.89"
       },
       {
         "teamName": "FURIA Academy",
-        "mediaTorres": 2.95,
-        "mediaDragoes": 1.025,
-        "mediaBarons": 0.41,
-        "mediaDuracaoPartidas": "33.17",
-        "ckpm": "0.85"
+        "mediaTorres": 3.01,
+        "mediaDragoes": 1.05,
+        "mediaBarons": 0.415,
+        "mediaDuracaoPartidas": "33.07",
+        "ckpm": "0.84"
       }
     ]
   },
@@ -2128,35 +2213,35 @@
       },
       {
         "teamName": "NORD Esports",
-        "mediaTorres": 3.57,
-        "mediaDragoes": 1.025,
-        "mediaBarons": 0.405,
-        "mediaDuracaoPartidas": "31.49",
+        "mediaTorres": 3.645,
+        "mediaDragoes": 1.035,
+        "mediaBarons": 0.3925,
+        "mediaDuracaoPartidas": "31.26",
         "ckpm": "0.99"
       },
       {
         "teamName": "Nativz",
-        "mediaTorres": 2.575,
-        "mediaDragoes": 0.905,
-        "mediaBarons": 0.26,
-        "mediaDuracaoPartidas": "30.66",
-        "ckpm": "0.87"
+        "mediaTorres": 2.62,
+        "mediaDragoes": 0.985,
+        "mediaBarons": 0.3025,
+        "mediaDuracaoPartidas": "31.46",
+        "ckpm": "0.85"
       },
       {
         "teamName": "Domino esports",
-        "mediaTorres": 2.535,
-        "mediaDragoes": 1.055,
-        "mediaBarons": 0.1975,
-        "mediaDuracaoPartidas": "30.29",
+        "mediaTorres": 2.5,
+        "mediaDragoes": 1.015,
+        "mediaBarons": 0.2075,
+        "mediaDuracaoPartidas": "30.27",
         "ckpm": "1.09"
       },
       {
         "teamName": "Verdant",
-        "mediaTorres": 3.64,
-        "mediaDragoes": 1.19,
-        "mediaBarons": 0.5125,
-        "mediaDuracaoPartidas": "32.26",
-        "ckpm": "0.88"
+        "mediaTorres": 3.66,
+        "mediaDragoes": 1.215,
+        "mediaBarons": 0.535,
+        "mediaDuracaoPartidas": "32.59",
+        "ckpm": "0.86"
       },
       {
         "teamName": "UniQ Esports Club",
@@ -2168,9 +2253,9 @@
       },
       {
         "teamName": "Ruddy Esports",
-        "mediaTorres": 3.4,
-        "mediaDragoes": 1.235,
-        "mediaBarons": 0.4325,
+        "mediaTorres": 3.185,
+        "mediaDragoes": 1.215,
+        "mediaBarons": 0.415,
         "mediaDuracaoPartidas": "30.53",
         "ckpm": "0.95"
       },
@@ -2229,27 +2314,27 @@
       },
       {
         "teamName": "Gamespace Mediterranean College Esports",
-        "mediaTorres": 2.905,
-        "mediaDragoes": 0.98,
-        "mediaBarons": 0.315,
-        "mediaDuracaoPartidas": "32.38",
-        "ckpm": "0.98"
+        "mediaTorres": 3.015,
+        "mediaDragoes": 0.895,
+        "mediaBarons": 0.3225,
+        "mediaDuracaoPartidas": "31.69",
+        "ckpm": "0.99"
       },
       {
         "teamName": "Anorthosis Famagusta Esports",
-        "mediaTorres": 4.06,
-        "mediaDragoes": 1.12,
-        "mediaBarons": 0.535,
-        "mediaDuracaoPartidas": "30.27",
-        "ckpm": "0.92"
+        "mediaTorres": 4.1,
+        "mediaDragoes": 1.175,
+        "mediaBarons": 0.5325,
+        "mediaDuracaoPartidas": "30.40",
+        "ckpm": "0.91"
       },
       {
         "teamName": "Team Phantasma",
-        "mediaTorres": 3.095,
-        "mediaDragoes": 1.12,
-        "mediaBarons": 0.46,
-        "mediaDuracaoPartidas": "31.05",
-        "ckpm": "0.91"
+        "mediaTorres": 2.915,
+        "mediaDragoes": 1.085,
+        "mediaBarons": 0.425,
+        "mediaDuracaoPartidas": "30.63",
+        "ckpm": "0.94"
       }
     ]
   },
@@ -2258,42 +2343,42 @@
     "teams": [
       {
         "teamName": "Team 7AM",
-        "mediaTorres": 3.815,
-        "mediaDragoes": 1.03,
+        "mediaTorres": 3.835,
+        "mediaDragoes": 1.055,
         "mediaBarons": 0.5,
-        "mediaDuracaoPartidas": "30.97",
+        "mediaDuracaoPartidas": "30.98",
         "ckpm": "1.01"
       },
       {
         "teamName": "mCon esports",
-        "mediaTorres": 2.705,
-        "mediaDragoes": 1.055,
-        "mediaBarons": 0.3325,
-        "mediaDuracaoPartidas": "33.39",
-        "ckpm": "0.87"
+        "mediaTorres": 2.805,
+        "mediaDragoes": 1.09,
+        "mediaBarons": 0.34,
+        "mediaDuracaoPartidas": "33.70",
+        "ckpm": "0.86"
       },
       {
         "teamName": "HEET",
-        "mediaTorres": 2.725,
-        "mediaDragoes": 1.115,
-        "mediaBarons": 0.3075,
-        "mediaDuracaoPartidas": "29.43",
-        "ckpm": "0.98"
+        "mediaTorres": 2.795,
+        "mediaDragoes": 1.11,
+        "mediaBarons": 0.3125,
+        "mediaDuracaoPartidas": "29.53",
+        "ckpm": "1.00"
       },
       {
         "teamName": "Northern Lions Esports",
-        "mediaTorres": 2.315,
-        "mediaDragoes": 1.035,
-        "mediaBarons": 0.2775,
-        "mediaDuracaoPartidas": "32.07",
-        "ckpm": "0.98"
+        "mediaTorres": 2.305,
+        "mediaDragoes": 1.055,
+        "mediaBarons": 0.3025,
+        "mediaDuracaoPartidas": "32.43",
+        "ckpm": "0.97"
       },
       {
         "teamName": "KRC Genk Esports",
-        "mediaTorres": 3.895,
-        "mediaDragoes": 1.345,
-        "mediaBarons": 0.475,
-        "mediaDuracaoPartidas": "31.93",
+        "mediaTorres": 3.835,
+        "mediaDragoes": 1.315,
+        "mediaBarons": 0.4625,
+        "mediaDuracaoPartidas": "31.91",
         "ckpm": "0.87"
       },
       {
@@ -2314,27 +2399,27 @@
       },
       {
         "teamName": "ZennIT",
-        "mediaTorres": 3.22,
-        "mediaDragoes": 1.28,
-        "mediaBarons": 0.37,
-        "mediaDuracaoPartidas": "32.14",
-        "ckpm": "0.95"
+        "mediaTorres": 3.16,
+        "mediaDragoes": 1.25,
+        "mediaBarons": 0.3575,
+        "mediaDuracaoPartidas": "31.84",
+        "ckpm": "0.99"
       },
       {
         "teamName": "A One Man Army",
-        "mediaTorres": 3.19,
-        "mediaDragoes": 1.19,
-        "mediaBarons": 0.23,
-        "mediaDuracaoPartidas": "31.75",
-        "ckpm": "0.97"
+        "mediaTorres": 3.32,
+        "mediaDragoes": 1.18,
+        "mediaBarons": 0.25,
+        "mediaDuracaoPartidas": "31.18",
+        "ckpm": "1.04"
       },
       {
         "teamName": "Myth Esports",
-        "mediaTorres": 2.23,
-        "mediaDragoes": 0.925,
-        "mediaBarons": 0.27,
-        "mediaDuracaoPartidas": "31.02",
-        "ckpm": "0.99"
+        "mediaTorres": 2.215,
+        "mediaDragoes": 0.93,
+        "mediaBarons": 0.25,
+        "mediaDuracaoPartidas": "31.13",
+        "ckpm": "1.03"
       }
     ]
   },
@@ -2343,59 +2428,59 @@
     "teams": [
       {
         "teamName": "Isurus",
-        "mediaTorres": 2.895,
-        "mediaDragoes": 1,
-        "mediaBarons": 0.33,
-        "mediaDuracaoPartidas": "34.15",
-        "ckpm": "0.86"
+        "mediaTorres": 3,
+        "mediaDragoes": 1.01,
+        "mediaBarons": 0.3375,
+        "mediaDuracaoPartidas": "33.81",
+        "ckpm": "0.87"
       },
       {
         "teamName": "Estral Esports",
         "mediaTorres": 3.76,
         "mediaDragoes": 1.25,
-        "mediaBarons": 0.4525,
-        "mediaDuracaoPartidas": "31.95",
-        "ckpm": "0.79"
+        "mediaBarons": 0.445,
+        "mediaDuracaoPartidas": "32.06",
+        "ckpm": "0.81"
       },
       {
         "teamName": "INFINITY",
-        "mediaTorres": 3.445,
-        "mediaDragoes": 1.055,
-        "mediaBarons": 0.465,
-        "mediaDuracaoPartidas": "33.18",
-        "ckpm": "0.79"
+        "mediaTorres": 3.375,
+        "mediaDragoes": 1.02,
+        "mediaBarons": 0.4475,
+        "mediaDuracaoPartidas": "33.03",
+        "ckpm": "0.82"
       },
       {
         "teamName": "Team Aze",
-        "mediaTorres": 1.825,
-        "mediaDragoes": 0.885,
-        "mediaBarons": 0.1925,
-        "mediaDuracaoPartidas": "31.96",
-        "ckpm": "0.71"
+        "mediaTorres": 1.84,
+        "mediaDragoes": 0.93,
+        "mediaBarons": 0.1975,
+        "mediaDuracaoPartidas": "32.83",
+        "ckpm": "0.73"
       },
       {
         "teamName": "Movistar R7",
-        "mediaTorres": 3.57,
-        "mediaDragoes": 1.295,
-        "mediaBarons": 0.45,
-        "mediaDuracaoPartidas": "32.53",
-        "ckpm": "0.89"
+        "mediaTorres": 3.635,
+        "mediaDragoes": 1.325,
+        "mediaBarons": 0.4825,
+        "mediaDuracaoPartidas": "32.87",
+        "ckpm": "0.92"
       },
       {
         "teamName": "All Knights",
-        "mediaTorres": 2.045,
-        "mediaDragoes": 0.78,
-        "mediaBarons": 0.2825,
-        "mediaDuracaoPartidas": "31.13",
-        "ckpm": "0.80"
+        "mediaTorres": 1.955,
+        "mediaDragoes": 0.765,
+        "mediaBarons": 0.265,
+        "mediaDuracaoPartidas": "30.91",
+        "ckpm": "0.81"
       },
       {
         "teamName": "Six Karma",
-        "mediaTorres": 3.605,
-        "mediaDragoes": 1.385,
-        "mediaBarons": 0.4575,
+        "mediaTorres": 3.53,
+        "mediaDragoes": 1.365,
+        "mediaBarons": 0.47,
         "mediaDuracaoPartidas": "33.20",
-        "ckpm": "0.82"
+        "ckpm": "0.84"
       },
       {
         "teamName": "The Kings",
@@ -2420,27 +2505,27 @@
     "teams": [
       {
         "teamName": "Crvena zvezda Esports",
-        "mediaTorres": 3.14,
-        "mediaDragoes": 1.12,
-        "mediaBarons": 0.4825,
-        "mediaDuracaoPartidas": "32.04",
-        "ckpm": "0.83"
+        "mediaTorres": 3.205,
+        "mediaDragoes": 1.14,
+        "mediaBarons": 0.5,
+        "mediaDuracaoPartidas": "32.55",
+        "ckpm": "0.82"
       },
       {
         "teamName": "Diamant Esports",
-        "mediaTorres": 3.94,
-        "mediaDragoes": 1.385,
-        "mediaBarons": 0.6125,
-        "mediaDuracaoPartidas": "32.81",
-        "ckpm": "0.83"
+        "mediaTorres": 3.925,
+        "mediaDragoes": 1.4,
+        "mediaBarons": 0.5975,
+        "mediaDuracaoPartidas": "33.30",
+        "ckpm": "0.82"
       },
       {
         "teamName": "MAGAZA",
-        "mediaTorres": 2.42,
-        "mediaDragoes": 1.02,
-        "mediaBarons": 0.32,
-        "mediaDuracaoPartidas": "30.59",
-        "ckpm": "0.89"
+        "mediaTorres": 2.52,
+        "mediaDragoes": 1.125,
+        "mediaBarons": 0.3025,
+        "mediaDuracaoPartidas": "30.76",
+        "ckpm": "0.93"
       },
       {
         "teamName": "XtremeDominators",
@@ -2452,43 +2537,43 @@
       },
       {
         "teamName": "Cyber Wolves",
-        "mediaTorres": 3.455,
-        "mediaDragoes": 1.31,
-        "mediaBarons": 0.3525,
-        "mediaDuracaoPartidas": "31.50",
-        "ckpm": "0.86"
+        "mediaTorres": 3.34,
+        "mediaDragoes": 1.27,
+        "mediaBarons": 0.3375,
+        "mediaDuracaoPartidas": "31.12",
+        "ckpm": "0.87"
       },
       {
         "teamName": "Partizan Esports",
-        "mediaTorres": 3.88,
-        "mediaDragoes": 1.395,
-        "mediaBarons": 0.455,
-        "mediaDuracaoPartidas": "33.13",
+        "mediaTorres": 3.755,
+        "mediaDragoes": 1.305,
+        "mediaBarons": 0.4875,
+        "mediaDuracaoPartidas": "34.30",
         "ckpm": "0.73"
       },
       {
         "teamName": "Valiance",
-        "mediaTorres": 2.36,
-        "mediaDragoes": 0.92,
-        "mediaBarons": 0.22,
-        "mediaDuracaoPartidas": "30.22",
-        "ckpm": "0.87"
+        "mediaTorres": 2.34,
+        "mediaDragoes": 0.945,
+        "mediaBarons": 0.2675,
+        "mediaDuracaoPartidas": "30.46",
+        "ckpm": "0.89"
       },
       {
         "teamName": "Ankora Gaming",
-        "mediaTorres": 1.885,
-        "mediaDragoes": 0.73,
-        "mediaBarons": 0.27,
-        "mediaDuracaoPartidas": "30.64",
+        "mediaTorres": 1.82,
+        "mediaDragoes": 0.695,
+        "mediaBarons": 0.25,
+        "mediaDuracaoPartidas": "30.49",
         "ckpm": "0.87"
       },
       {
         "teamName": "SPIKE Syndicate",
-        "mediaTorres": 3.59,
-        "mediaDragoes": 1.275,
-        "mediaBarons": 0.3175,
-        "mediaDuracaoPartidas": "30.70",
-        "ckpm": "0.85"
+        "mediaTorres": 3.93,
+        "mediaDragoes": 1.355,
+        "mediaBarons": 0.3575,
+        "mediaDuracaoPartidas": "31.38",
+        "ckpm": "0.87"
       }
     ]
   },
@@ -2497,50 +2582,50 @@
     "teams": [
       {
         "teamName": "İstanbul Wildcats",
-        "mediaTorres": 4.325,
-        "mediaDragoes": 1.405,
-        "mediaBarons": 0.54,
-        "mediaDuracaoPartidas": "30.70",
-        "ckpm": "0.90"
+        "mediaTorres": 4.37,
+        "mediaDragoes": 1.37,
+        "mediaBarons": 0.5525,
+        "mediaDuracaoPartidas": "30.65",
+        "ckpm": "0.92"
       },
       {
         "teamName": "FUT Esports",
-        "mediaTorres": 3.09,
-        "mediaDragoes": 1.03,
-        "mediaBarons": 0.3225,
-        "mediaDuracaoPartidas": "31.19",
-        "ckpm": "0.87"
+        "mediaTorres": 3.145,
+        "mediaDragoes": 1.11,
+        "mediaBarons": 0.3525,
+        "mediaDuracaoPartidas": "31.61",
+        "ckpm": "0.88"
       },
       {
         "teamName": "Beşiktaş Esports",
-        "mediaTorres": 3,
-        "mediaDragoes": 1.13,
-        "mediaBarons": 0.485,
-        "mediaDuracaoPartidas": "33.00",
+        "mediaTorres": 2.905,
+        "mediaDragoes": 1.07,
+        "mediaBarons": 0.46,
+        "mediaDuracaoPartidas": "32.75",
         "ckpm": "0.76"
       },
       {
         "teamName": "Dark Passage",
-        "mediaTorres": 2.675,
-        "mediaDragoes": 0.95,
-        "mediaBarons": 0.355,
-        "mediaDuracaoPartidas": "32.94",
-        "ckpm": "0.82"
+        "mediaTorres": 2.685,
+        "mediaDragoes": 0.985,
+        "mediaBarons": 0.3675,
+        "mediaDuracaoPartidas": "32.71",
+        "ckpm": "0.84"
       },
       {
         "teamName": "Papara SuperMassive",
-        "mediaTorres": 2.985,
-        "mediaDragoes": 1.165,
-        "mediaBarons": 0.4025,
-        "mediaDuracaoPartidas": "33.00",
-        "ckpm": "0.82"
+        "mediaTorres": 2.955,
+        "mediaDragoes": 1.175,
+        "mediaBarons": 0.395,
+        "mediaDuracaoPartidas": "33.06",
+        "ckpm": "0.83"
       },
       {
         "teamName": "NASR eSports Turkey",
-        "mediaTorres": 3.225,
-        "mediaDragoes": 1.24,
-        "mediaBarons": 0.5525,
-        "mediaDuracaoPartidas": "34.49",
+        "mediaTorres": 3.16,
+        "mediaDragoes": 1.225,
+        "mediaBarons": 0.5325,
+        "mediaDuracaoPartidas": "34.16",
         "ckpm": "0.76"
       },
       {
@@ -2553,19 +2638,19 @@
       },
       {
         "teamName": "Galakticos",
-        "mediaTorres": 2.52,
-        "mediaDragoes": 0.885,
-        "mediaBarons": 0.3275,
-        "mediaDuracaoPartidas": "32.79",
-        "ckpm": "0.74"
+        "mediaTorres": 2.355,
+        "mediaDragoes": 0.84,
+        "mediaBarons": 0.3025,
+        "mediaDuracaoPartidas": "32.28",
+        "ckpm": "0.77"
       },
       {
         "teamName": "Eternal Fire",
-        "mediaTorres": 3.085,
-        "mediaDragoes": 1.21,
-        "mediaBarons": 0.2925,
-        "mediaDuracaoPartidas": "30.81",
-        "ckpm": "0.86"
+        "mediaTorres": 3.16,
+        "mediaDragoes": 1.16,
+        "mediaBarons": 0.315,
+        "mediaDuracaoPartidas": "31.23",
+        "ckpm": "0.82"
       }
     ]
   },
@@ -2574,35 +2659,35 @@
     "teams": [
       {
         "teamName": "Cyberground Gaming",
-        "mediaTorres": 2.885,
-        "mediaDragoes": 1.04,
-        "mediaBarons": 0.345,
-        "mediaDuracaoPartidas": "30.98",
-        "ckpm": "1.06"
+        "mediaTorres": 2.77,
+        "mediaDragoes": 1.02,
+        "mediaBarons": 0.34,
+        "mediaDuracaoPartidas": "31.01",
+        "ckpm": "1.08"
       },
       {
         "teamName": "aNc Outplayed",
-        "mediaTorres": 3.23,
-        "mediaDragoes": 1.23,
-        "mediaBarons": 0.345,
-        "mediaDuracaoPartidas": "31.14",
-        "ckpm": "1.03"
+        "mediaTorres": 3.11,
+        "mediaDragoes": 1.17,
+        "mediaBarons": 0.33,
+        "mediaDuracaoPartidas": "30.90",
+        "ckpm": "1.04"
       },
       {
         "teamName": "DREN Esports",
-        "mediaTorres": 2.48,
-        "mediaDragoes": 0.71,
-        "mediaBarons": 0.2875,
-        "mediaDuracaoPartidas": "32.66",
-        "ckpm": "0.91"
+        "mediaTorres": 2.375,
+        "mediaDragoes": 0.68,
+        "mediaBarons": 0.2675,
+        "mediaDuracaoPartidas": "32.39",
+        "ckpm": "0.94"
       },
       {
         "teamName": "Dsyre Esports",
-        "mediaTorres": 4.13,
-        "mediaDragoes": 1.09,
-        "mediaBarons": 0.455,
-        "mediaDuracaoPartidas": "31.31",
-        "ckpm": "0.98"
+        "mediaTorres": 4.025,
+        "mediaDragoes": 1.1,
+        "mediaBarons": 0.475,
+        "mediaDuracaoPartidas": "31.72",
+        "ckpm": "0.99"
       },
       {
         "teamName": "Webidoo Gaming",
@@ -2622,35 +2707,35 @@
       },
       {
         "teamName": "Macko Esports",
-        "mediaTorres": 4.285,
-        "mediaDragoes": 1.3,
-        "mediaBarons": 0.5425,
-        "mediaDuracaoPartidas": "30.34",
-        "ckpm": "0.98"
+        "mediaTorres": 4.365,
+        "mediaDragoes": 1.33,
+        "mediaBarons": 0.56,
+        "mediaDuracaoPartidas": "30.52",
+        "ckpm": "1.01"
       },
       {
         "teamName": "Axolotl",
-        "mediaTorres": 2.715,
-        "mediaDragoes": 0.965,
-        "mediaBarons": 0.3175,
-        "mediaDuracaoPartidas": "29.62",
-        "ckpm": "1.03"
+        "mediaTorres": 2.705,
+        "mediaDragoes": 0.985,
+        "mediaBarons": 0.3125,
+        "mediaDuracaoPartidas": "29.45",
+        "ckpm": "1.02"
       },
       {
         "teamName": "Atleta Esport",
-        "mediaTorres": 3.835,
-        "mediaDragoes": 1.25,
-        "mediaBarons": 0.4575,
-        "mediaDuracaoPartidas": "31.01",
-        "ckpm": "0.96"
+        "mediaTorres": 4.035,
+        "mediaDragoes": 1.32,
+        "mediaBarons": 0.465,
+        "mediaDuracaoPartidas": "30.75",
+        "ckpm": "0.98"
       },
       {
         "teamName": "ENEMI3S",
-        "mediaTorres": 1.54,
+        "mediaTorres": 1.68,
         "mediaDragoes": 0.75,
-        "mediaBarons": 0.1675,
-        "mediaDuracaoPartidas": "29.32",
-        "ckpm": "1.04"
+        "mediaBarons": 0.1775,
+        "mediaDuracaoPartidas": "28.58",
+        "ckpm": "1.14"
       }
     ]
   },
@@ -2659,11 +2744,11 @@
     "teams": [
       {
         "teamName": "White Dragons",
-        "mediaTorres": 3.615,
-        "mediaDragoes": 1.345,
-        "mediaBarons": 0.4625,
-        "mediaDuracaoPartidas": "32.53",
-        "ckpm": "0.81"
+        "mediaTorres": 3.535,
+        "mediaDragoes": 1.34,
+        "mediaBarons": 0.4425,
+        "mediaDuracaoPartidas": "32.17",
+        "ckpm": "0.80"
       },
       {
         "teamName": "EGN Esports",
@@ -2675,11 +2760,11 @@
       },
       {
         "teamName": "For The Win Esports",
-        "mediaTorres": 3.445,
-        "mediaDragoes": 0.985,
-        "mediaBarons": 0.42,
-        "mediaDuracaoPartidas": "32.37",
-        "ckpm": "0.84"
+        "mediaTorres": 3.28,
+        "mediaDragoes": 0.95,
+        "mediaBarons": 0.39,
+        "mediaDuracaoPartidas": "31.94",
+        "ckpm": "0.83"
       },
       {
         "teamName": "Varona Esports",
@@ -2691,11 +2776,11 @@
       },
       {
         "teamName": "Odivelas Sports Club",
-        "mediaTorres": 2.795,
-        "mediaDragoes": 1.185,
-        "mediaBarons": 0.445,
-        "mediaDuracaoPartidas": "32.77",
-        "ckpm": "0.89"
+        "mediaTorres": 2.97,
+        "mediaDragoes": 1.21,
+        "mediaBarons": 0.4525,
+        "mediaDuracaoPartidas": "32.14",
+        "ckpm": "0.88"
       },
       {
         "teamName": "Boavista FC",
@@ -2707,11 +2792,11 @@
       },
       {
         "teamName": "GTZ Esports",
-        "mediaTorres": 4.68,
-        "mediaDragoes": 1.41,
-        "mediaBarons": 0.6825,
-        "mediaDuracaoPartidas": "30.38",
-        "ckpm": "1.01"
+        "mediaTorres": 4.5,
+        "mediaDragoes": 1.315,
+        "mediaBarons": 0.645,
+        "mediaDuracaoPartidas": "30.24",
+        "ckpm": "0.97"
       },
       {
         "teamName": "Byteway Esports",
@@ -2752,50 +2837,50 @@
     "teams": [
       {
         "teamName": "Cloud9",
-        "mediaTorres": 3.89,
-        "mediaDragoes": 1.455,
-        "mediaBarons": 0.51,
-        "mediaDuracaoPartidas": "30.53",
+        "mediaTorres": 3.865,
+        "mediaDragoes": 1.42,
+        "mediaBarons": 0.49,
+        "mediaDuracaoPartidas": "30.29",
         "ckpm": "0.79"
       },
       {
         "teamName": "100 Thieves",
-        "mediaTorres": 2.79,
-        "mediaDragoes": 1.29,
-        "mediaBarons": 0.36,
-        "mediaDuracaoPartidas": "32.24",
-        "ckpm": "0.73"
+        "mediaTorres": 2.785,
+        "mediaDragoes": 1.285,
+        "mediaBarons": 0.3825,
+        "mediaDuracaoPartidas": "32.53",
+        "ckpm": "0.72"
       },
       {
         "teamName": "Evil Geniuses",
-        "mediaTorres": 3.29,
-        "mediaDragoes": 1.135,
-        "mediaBarons": 0.5125,
-        "mediaDuracaoPartidas": "33.54",
-        "ckpm": "0.75"
+        "mediaTorres": 3.43,
+        "mediaDragoes": 1.15,
+        "mediaBarons": 0.535,
+        "mediaDuracaoPartidas": "33.38",
+        "ckpm": "0.76"
       },
       {
         "teamName": "Golden Guardians",
-        "mediaTorres": 3.29,
-        "mediaDragoes": 1.06,
-        "mediaBarons": 0.41,
-        "mediaDuracaoPartidas": "32.09",
+        "mediaTorres": 3.305,
+        "mediaDragoes": 1.055,
+        "mediaBarons": 0.4175,
+        "mediaDuracaoPartidas": "32.01",
         "ckpm": "0.79"
       },
       {
         "teamName": "Team Liquid",
-        "mediaTorres": 3.56,
-        "mediaDragoes": 1.305,
-        "mediaBarons": 0.44,
-        "mediaDuracaoPartidas": "33.70",
-        "ckpm": "0.78"
+        "mediaTorres": 3.5,
+        "mediaDragoes": 1.29,
+        "mediaBarons": 0.43,
+        "mediaDuracaoPartidas": "33.57",
+        "ckpm": "0.79"
       },
       {
         "teamName": "FlyQuest",
-        "mediaTorres": 3.02,
-        "mediaDragoes": 1.1,
-        "mediaBarons": 0.4225,
-        "mediaDuracaoPartidas": "32.16",
+        "mediaTorres": 3.075,
+        "mediaDragoes": 1.095,
+        "mediaBarons": 0.4275,
+        "mediaDuracaoPartidas": "32.01",
         "ckpm": "0.81"
       },
       {
@@ -2808,35 +2893,35 @@
       },
       {
         "teamName": "Dignitas",
-        "mediaTorres": 2.275,
-        "mediaDragoes": 0.775,
-        "mediaBarons": 0.2125,
-        "mediaDuracaoPartidas": "32.98",
-        "ckpm": "0.78"
-      },
-      {
-        "teamName": "Immortals",
-        "mediaTorres": 1.835,
-        "mediaDragoes": 0.805,
-        "mediaBarons": 0.1825,
-        "mediaDuracaoPartidas": "31.42",
+        "mediaTorres": 2.38,
+        "mediaDragoes": 0.825,
+        "mediaBarons": 0.2025,
+        "mediaDuracaoPartidas": "33.14",
         "ckpm": "0.77"
       },
       {
+        "teamName": "Immortals",
+        "mediaTorres": 1.89,
+        "mediaDragoes": 0.875,
+        "mediaBarons": 0.195,
+        "mediaDuracaoPartidas": "31.65",
+        "ckpm": "0.79"
+      },
+      {
         "teamName": "TSM",
-        "mediaTorres": 2.79,
-        "mediaDragoes": 1.15,
-        "mediaBarons": 0.3325,
-        "mediaDuracaoPartidas": "33.16",
+        "mediaTorres": 2.64,
+        "mediaDragoes": 1.095,
+        "mediaBarons": 0.305,
+        "mediaDuracaoPartidas": "32.45",
         "ckpm": "0.76"
       },
       {
         "teamName": "NRG",
-        "mediaTorres": 3.365,
-        "mediaDragoes": 1.035,
-        "mediaBarons": 0.5675,
-        "mediaDuracaoPartidas": "34.04",
-        "ckpm": "0.80"
+        "mediaTorres": 3.305,
+        "mediaDragoes": 1.055,
+        "mediaBarons": 0.5275,
+        "mediaDuracaoPartidas": "34.28",
+        "ckpm": "0.81"
       }
     ]
   },
@@ -2845,67 +2930,67 @@
     "teams": [
       {
         "teamName": "eSuba",
-        "mediaTorres": 3.725,
-        "mediaDragoes": 1.115,
-        "mediaBarons": 0.4125,
-        "mediaDuracaoPartidas": "30.10",
-        "ckpm": "0.96"
+        "mediaTorres": 3.66,
+        "mediaDragoes": 1.1,
+        "mediaBarons": 0.4025,
+        "mediaDuracaoPartidas": "30.14",
+        "ckpm": "0.95"
       },
       {
         "teamName": "Cryptova",
-        "mediaTorres": 1.98,
-        "mediaDragoes": 1.035,
-        "mediaBarons": 0.2225,
-        "mediaDuracaoPartidas": "29.58",
-        "ckpm": "0.82"
+        "mediaTorres": 2.055,
+        "mediaDragoes": 1.07,
+        "mediaBarons": 0.2325,
+        "mediaDuracaoPartidas": "29.41",
+        "ckpm": "0.83"
       },
       {
         "teamName": "Inside Games",
-        "mediaTorres": 1.575,
-        "mediaDragoes": 0.535,
-        "mediaBarons": 0.1475,
-        "mediaDuracaoPartidas": "29.55",
+        "mediaTorres": 1.57,
+        "mediaDragoes": 0.555,
+        "mediaBarons": 0.1425,
+        "mediaDuracaoPartidas": "29.71",
         "ckpm": "1.04"
       },
       {
         "teamName": "Dynamo Eclot",
-        "mediaTorres": 3.335,
-        "mediaDragoes": 1.18,
-        "mediaBarons": 0.3325,
-        "mediaDuracaoPartidas": "30.69",
-        "ckpm": "1.13"
+        "mediaTorres": 3.425,
+        "mediaDragoes": 1.245,
+        "mediaBarons": 0.3525,
+        "mediaDuracaoPartidas": "30.82",
+        "ckpm": "1.12"
       },
       {
         "teamName": "SINNERS Esports",
-        "mediaTorres": 3.435,
-        "mediaDragoes": 1.095,
-        "mediaBarons": 0.355,
-        "mediaDuracaoPartidas": "30.74",
+        "mediaTorres": 3.375,
+        "mediaDragoes": 1.065,
+        "mediaBarons": 0.345,
+        "mediaDuracaoPartidas": "30.55",
         "ckpm": "1.13"
       },
       {
         "teamName": "Team Sampi",
-        "mediaTorres": 2.185,
-        "mediaDragoes": 0.945,
-        "mediaBarons": 0.26,
-        "mediaDuracaoPartidas": "27.87",
+        "mediaTorres": 2.285,
+        "mediaDragoes": 0.965,
+        "mediaBarons": 0.285,
+        "mediaDuracaoPartidas": "28.10",
         "ckpm": "1.10"
       },
       {
         "teamName": "Entropiq",
-        "mediaTorres": 4.315,
-        "mediaDragoes": 1.245,
-        "mediaBarons": 0.5,
-        "mediaDuracaoPartidas": "30.03",
-        "ckpm": "0.95"
+        "mediaTorres": 4.305,
+        "mediaDragoes": 1.265,
+        "mediaBarons": 0.515,
+        "mediaDuracaoPartidas": "30.08",
+        "ckpm": "0.93"
       },
       {
         "teamName": "BRUTE",
-        "mediaTorres": 2.63,
-        "mediaDragoes": 0.905,
-        "mediaBarons": 0.4625,
-        "mediaDuracaoPartidas": "31.43",
-        "ckpm": "0.99"
+        "mediaTorres": 2.64,
+        "mediaDragoes": 0.89,
+        "mediaBarons": 0.4375,
+        "mediaDuracaoPartidas": "31.48",
+        "ckpm": "1.00"
       }
     ]
   },
@@ -2914,11 +2999,11 @@
     "teams": [
       {
         "teamName": "DetonatioN FocusMe",
-        "mediaTorres": 4.03,
-        "mediaDragoes": 1.25,
-        "mediaBarons": 0.405,
-        "mediaDuracaoPartidas": "29.62",
-        "ckpm": "0.93"
+        "mediaTorres": 4.075,
+        "mediaDragoes": 1.245,
+        "mediaBarons": 0.41,
+        "mediaDuracaoPartidas": "29.41",
+        "ckpm": "0.94"
       },
       {
         "teamName": "Sengoku Gaming",
@@ -2938,11 +3023,11 @@
       },
       {
         "teamName": "Crest Gaming Act",
-        "mediaTorres": 2.24,
-        "mediaDragoes": 1,
-        "mediaBarons": 0.27,
-        "mediaDuracaoPartidas": "31.62",
-        "ckpm": "0.80"
+        "mediaTorres": 2.165,
+        "mediaDragoes": 0.96,
+        "mediaBarons": 0.255,
+        "mediaDuracaoPartidas": "31.28",
+        "ckpm": "0.82"
       },
       {
         "teamName": "AXIZ",
@@ -2962,19 +3047,19 @@
       },
       {
         "teamName": "FENNEL",
-        "mediaTorres": 3.01,
-        "mediaDragoes": 0.92,
-        "mediaBarons": 0.37,
-        "mediaDuracaoPartidas": "31.07",
+        "mediaTorres": 2.94,
+        "mediaDragoes": 0.91,
+        "mediaBarons": 0.365,
+        "mediaDuracaoPartidas": "30.92",
         "ckpm": "0.82"
       },
       {
         "teamName": "Fukuoka SoftBank HAWKS gaming",
-        "mediaTorres": 3.645,
-        "mediaDragoes": 1.225,
-        "mediaBarons": 0.4375,
-        "mediaDuracaoPartidas": "31.56",
-        "ckpm": "0.77"
+        "mediaTorres": 3.64,
+        "mediaDragoes": 1.23,
+        "mediaBarons": 0.435,
+        "mediaDuracaoPartidas": "31.35",
+        "ckpm": "0.78"
       }
     ]
   },
@@ -3039,27 +3124,27 @@
       },
       {
         "teamName": "GLORE",
-        "mediaTorres": 4.195,
-        "mediaDragoes": 1.37,
-        "mediaBarons": 0.54,
-        "mediaDuracaoPartidas": "30.64",
-        "ckpm": "1.07"
+        "mediaTorres": 4.165,
+        "mediaDragoes": 1.315,
+        "mediaBarons": 0.5,
+        "mediaDuracaoPartidas": "30.79",
+        "ckpm": "1.12"
       },
       {
         "teamName": "Esport STUBA",
-        "mediaTorres": 3.42,
-        "mediaDragoes": 1.395,
-        "mediaBarons": 0.4725,
-        "mediaDuracaoPartidas": "32.31",
-        "ckpm": "0.89"
+        "mediaTorres": 3.02,
+        "mediaDragoes": 1.305,
+        "mediaBarons": 0.4575,
+        "mediaDuracaoPartidas": "32.04",
+        "ckpm": "1.00"
       },
       {
         "teamName": "Team UNiTY",
-        "mediaTorres": 3.59,
-        "mediaDragoes": 1.235,
-        "mediaBarons": 0.3525,
-        "mediaDuracaoPartidas": "28.50",
-        "ckpm": "0.87"
+        "mediaTorres": 3.62,
+        "mediaDragoes": 1.24,
+        "mediaBarons": 0.405,
+        "mediaDuracaoPartidas": "29.23",
+        "ckpm": "0.92"
       }
     ]
   },
@@ -3068,66 +3153,66 @@
     "teams": [
       {
         "teamName": "RA'AD",
-        "mediaTorres": 3.59,
+        "mediaTorres": 3.605,
         "mediaDragoes": 1,
-        "mediaBarons": 0.44,
-        "mediaDuracaoPartidas": "31.38",
-        "ckpm": "1.06"
+        "mediaBarons": 0.435,
+        "mediaDuracaoPartidas": "30.97",
+        "ckpm": "1.11"
       },
       {
         "teamName": "3BL Esports",
-        "mediaTorres": 2.46,
-        "mediaDragoes": 1.205,
-        "mediaBarons": 0.31,
-        "mediaDuracaoPartidas": "31.88",
+        "mediaTorres": 2.415,
+        "mediaDragoes": 1.135,
+        "mediaBarons": 0.2925,
+        "mediaDuracaoPartidas": "31.65",
         "ckpm": "1.05"
       },
       {
         "teamName": "Anubis Gaming",
-        "mediaTorres": 3.34,
-        "mediaDragoes": 1.175,
-        "mediaBarons": 0.355,
-        "mediaDuracaoPartidas": "29.10",
-        "ckpm": "1.15"
+        "mediaTorres": 3.37,
+        "mediaDragoes": 1.215,
+        "mediaBarons": 0.3725,
+        "mediaDuracaoPartidas": "28.90",
+        "ckpm": "1.13"
       },
       {
         "teamName": "Fox Gaming",
-        "mediaTorres": 3.25,
-        "mediaDragoes": 1.23,
-        "mediaBarons": 0.4575,
-        "mediaDuracaoPartidas": "32.82",
-        "ckpm": "0.92"
+        "mediaTorres": 3.02,
+        "mediaDragoes": 1.125,
+        "mediaBarons": 0.41,
+        "mediaDuracaoPartidas": "32.09",
+        "ckpm": "0.95"
       },
       {
         "teamName": "GnG Esports",
-        "mediaTorres": 2.7,
-        "mediaDragoes": 1.06,
-        "mediaBarons": 0.32,
-        "mediaDuracaoPartidas": "31.78",
-        "ckpm": "1.05"
+        "mediaTorres": 2.62,
+        "mediaDragoes": 1.05,
+        "mediaBarons": 0.31,
+        "mediaDuracaoPartidas": "31.84",
+        "ckpm": "1.08"
       },
       {
         "teamName": "Nigma Galaxy Male",
-        "mediaTorres": 3.465,
-        "mediaDragoes": 0.98,
-        "mediaBarons": 0.41,
-        "mediaDuracaoPartidas": "31.68",
-        "ckpm": "1.07"
+        "mediaTorres": 3.64,
+        "mediaDragoes": 1,
+        "mediaBarons": 0.4375,
+        "mediaDuracaoPartidas": "31.01",
+        "ckpm": "1.09"
       },
       {
         "teamName": "Triple Esports",
-        "mediaTorres": 2.385,
-        "mediaDragoes": 0.985,
-        "mediaBarons": 0.3325,
-        "mediaDuracaoPartidas": "30.50",
-        "ckpm": "1.06"
+        "mediaTorres": 2.325,
+        "mediaDragoes": 0.94,
+        "mediaBarons": 0.31,
+        "mediaDuracaoPartidas": "30.00",
+        "ckpm": "1.10"
       },
       {
         "teamName": "Geekay Esports",
-        "mediaTorres": 4.405,
-        "mediaDragoes": 1.45,
-        "mediaBarons": 0.515,
-        "mediaDuracaoPartidas": "33.70",
+        "mediaTorres": 4.185,
+        "mediaDragoes": 1.385,
+        "mediaBarons": 0.485,
+        "mediaDuracaoPartidas": "32.89",
         "ckpm": "1.04"
       },
       {
@@ -3153,27 +3238,27 @@
     "teams": [
       {
         "teamName": "CTBC Flying Oyster",
-        "mediaTorres": 3.5,
-        "mediaDragoes": 1.3,
-        "mediaBarons": 0.3775,
-        "mediaDuracaoPartidas": "32.05",
+        "mediaTorres": 3.425,
+        "mediaDragoes": 1.28,
+        "mediaBarons": 0.375,
+        "mediaDuracaoPartidas": "32.00",
         "ckpm": "0.77"
       },
       {
         "teamName": "Beyond Gaming",
-        "mediaTorres": 3.58,
-        "mediaDragoes": 1.295,
-        "mediaBarons": 0.42,
-        "mediaDuracaoPartidas": "33.66",
-        "ckpm": "0.73"
+        "mediaTorres": 3.54,
+        "mediaDragoes": 1.26,
+        "mediaBarons": 0.4125,
+        "mediaDuracaoPartidas": "33.41",
+        "ckpm": "0.74"
       },
       {
         "teamName": "PSG Talon",
-        "mediaTorres": 4.225,
-        "mediaDragoes": 1.54,
-        "mediaBarons": 0.525,
-        "mediaDuracaoPartidas": "33.91",
-        "ckpm": "0.69"
+        "mediaTorres": 4.22,
+        "mediaDragoes": 1.57,
+        "mediaBarons": 0.5,
+        "mediaDuracaoPartidas": "33.59",
+        "ckpm": "0.71"
       },
       {
         "teamName": "SEM9 WPE",
@@ -3185,51 +3270,51 @@
       },
       {
         "teamName": "Dewish Team",
-        "mediaTorres": 1.22,
-        "mediaDragoes": 0.52,
-        "mediaBarons": 0.0925,
-        "mediaDuracaoPartidas": "27.80",
-        "ckpm": "0.97"
+        "mediaTorres": 1.215,
+        "mediaDragoes": 0.585,
+        "mediaBarons": 0.1175,
+        "mediaDuracaoPartidas": "28.26",
+        "ckpm": "1.00"
       },
       {
         "teamName": "Impunity",
-        "mediaTorres": 2.7,
-        "mediaDragoes": 0.975,
-        "mediaBarons": 0.3375,
-        "mediaDuracaoPartidas": "31.28",
-        "ckpm": "0.89"
+        "mediaTorres": 2.64,
+        "mediaDragoes": 0.98,
+        "mediaBarons": 0.325,
+        "mediaDuracaoPartidas": "31.23",
+        "ckpm": "0.91"
       },
       {
         "teamName": "J Team",
-        "mediaTorres": 3.22,
-        "mediaDragoes": 1.055,
-        "mediaBarons": 0.3525,
-        "mediaDuracaoPartidas": "30.63",
+        "mediaTorres": 3.3,
+        "mediaDragoes": 1,
+        "mediaBarons": 0.3675,
+        "mediaDuracaoPartidas": "30.44",
         "ckpm": "0.77"
       },
       {
         "teamName": "Deep Cross Gaming",
-        "mediaTorres": 3.155,
-        "mediaDragoes": 1.21,
-        "mediaBarons": 0.4175,
-        "mediaDuracaoPartidas": "32.27",
-        "ckpm": "0.77"
+        "mediaTorres": 3.22,
+        "mediaDragoes": 1.22,
+        "mediaBarons": 0.435,
+        "mediaDuracaoPartidas": "32.20",
+        "ckpm": "0.79"
       },
       {
         "teamName": "Frank Esports",
-        "mediaTorres": 3.26,
-        "mediaDragoes": 1.23,
-        "mediaBarons": 0.4075,
-        "mediaDuracaoPartidas": "32.32",
-        "ckpm": "0.74"
+        "mediaTorres": 3.275,
+        "mediaDragoes": 1.225,
+        "mediaBarons": 0.4225,
+        "mediaDuracaoPartidas": "32.19",
+        "ckpm": "0.75"
       },
       {
         "teamName": "HELL PIGS",
-        "mediaTorres": 2.055,
-        "mediaDragoes": 0.78,
-        "mediaBarons": 0.315,
-        "mediaDuracaoPartidas": "32.20",
-        "ckpm": "0.82"
+        "mediaTorres": 2.135,
+        "mediaDragoes": 0.8,
+        "mediaBarons": 0.35,
+        "mediaDuracaoPartidas": "32.23",
+        "ckpm": "0.81"
       },
       {
         "teamName": "Chiefs Esports Club",
@@ -3257,11 +3342,11 @@
       },
       {
         "teamName": "West Point Esports",
-        "mediaTorres": 2.645,
-        "mediaDragoes": 1.355,
-        "mediaBarons": 0.285,
-        "mediaDuracaoPartidas": "28.49",
-        "ckpm": "0.95"
+        "mediaTorres": 2.15,
+        "mediaDragoes": 1.15,
+        "mediaBarons": 0.2,
+        "mediaDuracaoPartidas": "28.73",
+        "ckpm": "1.02"
       }
     ]
   },
@@ -3269,172 +3354,172 @@
     "league": "LDL",
     "teams": [
       {
-        "teamName": "EDG Youth Team",
-        "mediaTorres": 3.225,
-        "mediaDragoes": 1.055,
-        "mediaBarons": 0.17,
-        "mediaDuracaoPartidas": "29.91",
-        "ckpm": "0.87"
-      },
-      {
-        "teamName": "ThunderTalk Gaming Young",
-        "mediaTorres": 2.825,
-        "mediaDragoes": 1.02,
-        "mediaBarons": 0.195,
-        "mediaDuracaoPartidas": "32.03",
-        "ckpm": "0.84"
-      },
-      {
-        "teamName": "Top Esports Challenger",
-        "mediaTorres": 3.455,
-        "mediaDragoes": 1.085,
-        "mediaBarons": 0.2125,
-        "mediaDuracaoPartidas": "29.90",
-        "ckpm": "0.96"
-      },
-      {
-        "teamName": "Weibo Gaming Youth Team",
-        "mediaTorres": 2.5,
-        "mediaDragoes": 1.065,
-        "mediaBarons": 0.15,
-        "mediaDuracaoPartidas": "32.93",
-        "ckpm": "0.71"
-      },
-      {
-        "teamName": "Oh My Dream",
-        "mediaTorres": 3.065,
-        "mediaDragoes": 1.225,
-        "mediaBarons": 0.2275,
-        "mediaDuracaoPartidas": "32.20",
-        "ckpm": "0.75"
-      },
-      {
-        "teamName": "Anyone's Legend.Young",
-        "mediaTorres": 2.77,
-        "mediaDragoes": 1.07,
-        "mediaBarons": 0.15,
-        "mediaDuracaoPartidas": "31.49",
-        "ckpm": "0.89"
-      },
-      {
-        "teamName": "MAX",
-        "mediaTorres": 3.2,
-        "mediaDragoes": 1.2,
-        "mediaBarons": 0.21,
-        "mediaDuracaoPartidas": "32.08",
-        "ckpm": "0.88"
-      },
-      {
         "teamName": "LGD Gaming Young Team",
-        "mediaTorres": 2.16,
-        "mediaDragoes": 0.865,
-        "mediaBarons": 0.135,
-        "mediaDuracaoPartidas": "30.52",
-        "ckpm": "0.92"
-      },
-      {
-        "teamName": "Young Ninjas",
-        "mediaTorres": 3.335,
-        "mediaDragoes": 1.165,
-        "mediaBarons": 0.1675,
-        "mediaDuracaoPartidas": "35.36",
-        "ckpm": "0.67"
-      },
-      {
-        "teamName": "Rare Atom Period",
-        "mediaTorres": 2.52,
-        "mediaDragoes": 0.975,
-        "mediaBarons": 0.15,
-        "mediaDuracaoPartidas": "30.83",
-        "ckpm": "0.95"
-      },
-      {
-        "teamName": "Shu Dai Xiong Gaming",
-        "mediaTorres": 1.5,
-        "mediaDragoes": 0.705,
-        "mediaBarons": 0.095,
-        "mediaDuracaoPartidas": "29.54",
-        "ckpm": "0.97"
-      },
-      {
-        "teamName": "Team WE Academy",
-        "mediaTorres": 3.215,
-        "mediaDragoes": 1.17,
-        "mediaBarons": 0.2125,
-        "mediaDuracaoPartidas": "32.42",
-        "ckpm": "0.82"
-      },
-      {
-        "teamName": "Ultra Prime Academy",
-        "mediaTorres": 3.045,
-        "mediaDragoes": 0.885,
-        "mediaBarons": 0.1925,
-        "mediaDuracaoPartidas": "30.56",
-        "ckpm": "0.92"
-      },
-      {
-        "teamName": "Bilibili Gaming Junior",
-        "mediaTorres": 3.045,
-        "mediaDragoes": 1.1,
-        "mediaBarons": 0.1675,
-        "mediaDuracaoPartidas": "29.93",
-        "ckpm": "1.03"
-      },
-      {
-        "teamName": "Team Pinnacle",
-        "mediaTorres": 1.15,
-        "mediaDragoes": 0.525,
-        "mediaBarons": 0.0375,
-        "mediaDuracaoPartidas": "26.43",
-        "ckpm": "0.93"
-      },
-      {
-        "teamName": "FunPlus Phoenix Blaze",
-        "mediaTorres": 3.245,
-        "mediaDragoes": 1.055,
-        "mediaBarons": 0.18,
+        "mediaTorres": 2.14,
+        "mediaDragoes": 0.86,
+        "mediaBarons": 0.1375,
         "mediaDuracaoPartidas": "30.59",
         "ckpm": "0.91"
       },
       {
-        "teamName": "LNG Academy",
-        "mediaTorres": 2.705,
-        "mediaDragoes": 1.155,
-        "mediaBarons": 0.17,
-        "mediaDuracaoPartidas": "30.29",
-        "ckpm": "0.91"
+        "teamName": "Oh My Dream",
+        "mediaTorres": 3.075,
+        "mediaDragoes": 1.235,
+        "mediaBarons": 0.2275,
+        "mediaDuracaoPartidas": "32.23",
+        "ckpm": "0.74"
       },
       {
-        "teamName": "Invictus Gaming Young",
-        "mediaTorres": 3.015,
-        "mediaDragoes": 1.055,
-        "mediaBarons": 0.1825,
-        "mediaDuracaoPartidas": "29.74",
+        "teamName": "Bilibili Gaming Junior",
+        "mediaTorres": 3.075,
+        "mediaDragoes": 1.095,
+        "mediaBarons": 0.17,
+        "mediaDuracaoPartidas": "30.01",
+        "ckpm": "1.03"
+      },
+      {
+        "teamName": "EDG Youth Team",
+        "mediaTorres": 3.145,
+        "mediaDragoes": 1.045,
+        "mediaBarons": 0.1625,
+        "mediaDuracaoPartidas": "29.75",
+        "ckpm": "0.87"
+      },
+      {
+        "teamName": "LNG Academy",
+        "mediaTorres": 2.77,
+        "mediaDragoes": 1.18,
+        "mediaBarons": 0.1725,
+        "mediaDuracaoPartidas": "30.45",
+        "ckpm": "0.95"
+      },
+      {
+        "teamName": "MAX",
+        "mediaTorres": 3.205,
+        "mediaDragoes": 1.18,
+        "mediaBarons": 0.21,
+        "mediaDuracaoPartidas": "31.91",
+        "ckpm": "0.87"
+      },
+      {
+        "teamName": "Anyone's Legend.Young",
+        "mediaTorres": 2.79,
+        "mediaDragoes": 1.06,
+        "mediaBarons": 0.1475,
+        "mediaDuracaoPartidas": "31.58",
+        "ckpm": "0.89"
+      },
+      {
+        "teamName": "FunPlus Phoenix Blaze",
+        "mediaTorres": 3.23,
+        "mediaDragoes": 1.06,
+        "mediaBarons": 0.185,
+        "mediaDuracaoPartidas": "30.66",
         "ckpm": "0.90"
       },
       {
+        "teamName": "Rare Atom Period",
+        "mediaTorres": 2.565,
+        "mediaDragoes": 0.985,
+        "mediaBarons": 0.1525,
+        "mediaDuracaoPartidas": "30.97",
+        "ckpm": "0.95"
+      },
+      {
+        "teamName": "Top Esports Challenger",
+        "mediaTorres": 3.43,
+        "mediaDragoes": 1.075,
+        "mediaBarons": 0.21,
+        "mediaDuracaoPartidas": "29.91",
+        "ckpm": "0.96"
+      },
+      {
         "teamName": "Joy Dream",
-        "mediaTorres": 2.765,
-        "mediaDragoes": 0.89,
+        "mediaTorres": 2.78,
+        "mediaDragoes": 0.895,
         "mediaBarons": 0.16,
-        "mediaDuracaoPartidas": "30.45",
+        "mediaDuracaoPartidas": "30.49",
         "ckpm": "0.88"
       },
       {
+        "teamName": "Weibo Gaming Youth Team",
+        "mediaTorres": 2.48,
+        "mediaDragoes": 1.07,
+        "mediaBarons": 0.1475,
+        "mediaDuracaoPartidas": "32.94",
+        "ckpm": "0.70"
+      },
+      {
+        "teamName": "Young Ninjas",
+        "mediaTorres": 3.625,
+        "mediaDragoes": 1.25,
+        "mediaBarons": 0.1875,
+        "mediaDuracaoPartidas": "34.27",
+        "ckpm": "0.60"
+      },
+      {
+        "teamName": "Team WE Academy",
+        "mediaTorres": 3.2,
+        "mediaDragoes": 1.165,
+        "mediaBarons": 0.21,
+        "mediaDuracaoPartidas": "32.41",
+        "ckpm": "0.82"
+      },
+      {
+        "teamName": "Invictus Gaming Young",
+        "mediaTorres": 3.065,
+        "mediaDragoes": 1.025,
+        "mediaBarons": 0.19,
+        "mediaDuracaoPartidas": "29.78",
+        "ckpm": "0.92"
+      },
+      {
+        "teamName": "Ultra Prime Academy",
+        "mediaTorres": 3.025,
+        "mediaDragoes": 0.89,
+        "mediaBarons": 0.19,
+        "mediaDuracaoPartidas": "30.55",
+        "ckpm": "0.92"
+      },
+      {
+        "teamName": "Team Pinnacle",
+        "mediaTorres": 1.12,
+        "mediaDragoes": 0.5,
+        "mediaBarons": 0.0475,
+        "mediaDuracaoPartidas": "26.45",
+        "ckpm": "0.93"
+      },
+      {
+        "teamName": "ThunderTalk Gaming Young",
+        "mediaTorres": 2.855,
+        "mediaDragoes": 1.05,
+        "mediaBarons": 0.19,
+        "mediaDuracaoPartidas": "31.85",
+        "ckpm": "0.85"
+      },
+      {
         "teamName": "Royal Club",
-        "mediaTorres": 3.395,
-        "mediaDragoes": 1.315,
+        "mediaTorres": 3.41,
+        "mediaDragoes": 1.31,
         "mediaBarons": 0.22,
-        "mediaDuracaoPartidas": "30.61",
-        "ckpm": "1.00"
+        "mediaDuracaoPartidas": "30.52",
+        "ckpm": "1.01"
+      },
+      {
+        "teamName": "Shu Dai Xiong Gaming",
+        "mediaTorres": 1.455,
+        "mediaDragoes": 0.685,
+        "mediaBarons": 0.0925,
+        "mediaDuracaoPartidas": "29.31",
+        "ckpm": "0.99"
       },
       {
         "teamName": "Ji Jie Hao (集结号)",
-        "mediaTorres": 3.465,
-        "mediaDragoes": 1.08,
-        "mediaBarons": 0.19,
-        "mediaDuracaoPartidas": "30.34",
-        "ckpm": "0.89"
+        "mediaTorres": 3.445,
+        "mediaDragoes": 1.09,
+        "mediaBarons": 0.195,
+        "mediaDuracaoPartidas": "30.52",
+        "ckpm": "0.92"
       },
       {
         "teamName": "MiaoJing (妙竞)",
@@ -3451,51 +3536,51 @@
     "teams": [
       {
         "teamName": "Saigon Buffalo",
-        "mediaTorres": 2.86,
-        "mediaDragoes": 1.255,
-        "mediaBarons": 0.32,
-        "mediaDuracaoPartidas": "31.55",
+        "mediaTorres": 2.98,
+        "mediaDragoes": 1.27,
+        "mediaBarons": 0.36,
+        "mediaDuracaoPartidas": "31.60",
         "ckpm": "0.83"
       },
       {
         "teamName": "Team Secret",
-        "mediaTorres": 2.915,
-        "mediaDragoes": 0.935,
-        "mediaBarons": 0.35,
-        "mediaDuracaoPartidas": "32.05",
-        "ckpm": "0.89"
+        "mediaTorres": 2.875,
+        "mediaDragoes": 0.925,
+        "mediaBarons": 0.345,
+        "mediaDuracaoPartidas": "31.97",
+        "ckpm": "0.87"
       },
       {
         "teamName": "Team Whales",
-        "mediaTorres": 3.58,
-        "mediaDragoes": 1.265,
-        "mediaBarons": 0.5225,
-        "mediaDuracaoPartidas": "31.39",
+        "mediaTorres": 3.55,
+        "mediaDragoes": 1.275,
+        "mediaBarons": 0.515,
+        "mediaDuracaoPartidas": "31.10",
         "ckpm": "0.89"
       },
       {
         "teamName": "MGN Box Esports",
-        "mediaTorres": 1.915,
-        "mediaDragoes": 0.77,
-        "mediaBarons": 0.2075,
-        "mediaDuracaoPartidas": "30.14",
-        "ckpm": "0.93"
+        "mediaTorres": 1.885,
+        "mediaDragoes": 0.74,
+        "mediaBarons": 0.2025,
+        "mediaDuracaoPartidas": "29.95",
+        "ckpm": "0.94"
       },
       {
         "teamName": "Team Flash",
-        "mediaTorres": 3.22,
-        "mediaDragoes": 1.09,
-        "mediaBarons": 0.4,
-        "mediaDuracaoPartidas": "33.30",
+        "mediaTorres": 3.1,
+        "mediaDragoes": 1.02,
+        "mediaBarons": 0.37,
+        "mediaDuracaoPartidas": "33.02",
         "ckpm": "0.78"
       },
       {
         "teamName": "GAM Esports",
-        "mediaTorres": 3.84,
-        "mediaDragoes": 1.4,
-        "mediaBarons": 0.385,
-        "mediaDuracaoPartidas": "30.10",
-        "ckpm": "1.00"
+        "mediaTorres": 3.825,
+        "mediaDragoes": 1.395,
+        "mediaBarons": 0.3825,
+        "mediaDuracaoPartidas": "30.11",
+        "ckpm": "0.99"
       },
       {
         "teamName": "SBTC Esports",
@@ -3507,11 +3592,11 @@
       },
       {
         "teamName": "CERBERUS Esports",
-        "mediaTorres": 2.89,
-        "mediaDragoes": 1.075,
-        "mediaBarons": 0.4075,
-        "mediaDuracaoPartidas": "31.61",
-        "ckpm": "0.90"
+        "mediaTorres": 2.935,
+        "mediaDragoes": 1.105,
+        "mediaBarons": 0.4275,
+        "mediaDuracaoPartidas": "31.58",
+        "ckpm": "0.89"
       }
     ]
   },
@@ -3952,10 +4037,10 @@
       {
         "teamName": "Tomorrow Esports",
         "mediaTorres": 2.98,
-        "mediaDragoes": 1.065,
-        "mediaBarons": 0.4575,
-        "mediaDuracaoPartidas": "32.87",
-        "ckpm": "0.88"
+        "mediaDragoes": 1.125,
+        "mediaBarons": 0.41,
+        "mediaDuracaoPartidas": "32.53",
+        "ckpm": "0.91"
       },
       {
         "teamName": "Osaka",
@@ -3991,27 +4076,27 @@
       },
       {
         "teamName": "Descuydado Aucas Esports",
-        "mediaTorres": 2.92,
-        "mediaDragoes": 1.105,
-        "mediaBarons": 0.29,
-        "mediaDuracaoPartidas": "31.89",
-        "ckpm": "0.80"
-      },
-      {
-        "teamName": "PÊEK Gaming",
-        "mediaTorres": 2.79,
-        "mediaDragoes": 1.315,
-        "mediaBarons": 0.3425,
-        "mediaDuracaoPartidas": "32.55",
+        "mediaTorres": 2.855,
+        "mediaDragoes": 1,
+        "mediaBarons": 0.3125,
+        "mediaDuracaoPartidas": "31.69",
         "ckpm": "0.84"
       },
       {
+        "teamName": "PÊEK Gaming",
+        "mediaTorres": 2.635,
+        "mediaDragoes": 1.225,
+        "mediaBarons": 0.3175,
+        "mediaDuracaoPartidas": "32.27",
+        "ckpm": "0.83"
+      },
+      {
         "teamName": "Fuego",
-        "mediaTorres": 3.865,
-        "mediaDragoes": 1.41,
-        "mediaBarons": 0.4325,
-        "mediaDuracaoPartidas": "31.57",
-        "ckpm": "0.87"
+        "mediaTorres": 4.02,
+        "mediaDragoes": 1.4,
+        "mediaBarons": 0.44,
+        "mediaDuracaoPartidas": "31.45",
+        "ckpm": "0.85"
       }
     ]
   },
@@ -4020,83 +4105,83 @@
     "teams": [
       {
         "teamName": "Undead Gaming",
-        "mediaTorres": 2.235,
-        "mediaDragoes": 0.965,
-        "mediaBarons": 0.2675,
-        "mediaDuracaoPartidas": "32.11",
-        "ckpm": "0.82"
+        "mediaTorres": 2.175,
+        "mediaDragoes": 0.97,
+        "mediaBarons": 0.265,
+        "mediaDuracaoPartidas": "31.92",
+        "ckpm": "0.87"
       },
       {
         "teamName": "WAP Esports",
-        "mediaTorres": 3.75,
-        "mediaDragoes": 1.53,
-        "mediaBarons": 0.375,
-        "mediaDuracaoPartidas": "31.82",
-        "ckpm": "0.92"
+        "mediaTorres": 3.53,
+        "mediaDragoes": 1.415,
+        "mediaBarons": 0.36,
+        "mediaDuracaoPartidas": "31.95",
+        "ckpm": "0.95"
       },
       {
         "teamName": "EBRO",
-        "mediaTorres": 3.25,
-        "mediaDragoes": 1.03,
-        "mediaBarons": 0.5,
-        "mediaDuracaoPartidas": "32.87",
-        "ckpm": "0.83"
+        "mediaTorres": 3.055,
+        "mediaDragoes": 0.97,
+        "mediaBarons": 0.445,
+        "mediaDuracaoPartidas": "32.64",
+        "ckpm": "0.81"
       },
       {
         "teamName": "Meta Gaming",
-        "mediaTorres": 2.4,
-        "mediaDragoes": 0.9,
-        "mediaBarons": 0.2675,
-        "mediaDuracaoPartidas": "32.73",
-        "ckpm": "0.90"
+        "mediaTorres": 2.38,
+        "mediaDragoes": 0.91,
+        "mediaBarons": 0.235,
+        "mediaDuracaoPartidas": "32.01",
+        "ckpm": "0.92"
       },
       {
         "teamName": "Eclipse Gaming",
-        "mediaTorres": 2.315,
-        "mediaDragoes": 1.19,
-        "mediaBarons": 0.5,
-        "mediaDuracaoPartidas": "34.09",
-        "ckpm": "0.88"
+        "mediaTorres": 2.22,
+        "mediaDragoes": 1.14,
+        "mediaBarons": 0.4725,
+        "mediaDuracaoPartidas": "33.90",
+        "ckpm": "0.94"
       },
       {
         "teamName": "Spectacled Bears",
-        "mediaTorres": 1.905,
-        "mediaDragoes": 0.69,
-        "mediaBarons": 0.1875,
-        "mediaDuracaoPartidas": "31.02",
-        "ckpm": "0.91"
+        "mediaTorres": 1.86,
+        "mediaDragoes": 0.61,
+        "mediaBarons": 0.1675,
+        "mediaDuracaoPartidas": "30.61",
+        "ckpm": "0.92"
       },
       {
         "teamName": "PRIMATE",
-        "mediaTorres": 4.47,
-        "mediaDragoes": 1.375,
-        "mediaBarons": 0.4375,
-        "mediaDuracaoPartidas": "32.26",
-        "ckpm": "0.84"
+        "mediaTorres": 4.585,
+        "mediaDragoes": 1.335,
+        "mediaBarons": 0.4725,
+        "mediaDuracaoPartidas": "31.84",
+        "ckpm": "0.87"
       },
       {
         "teamName": "Furious Gaming",
-        "mediaTorres": 3.69,
-        "mediaDragoes": 1.095,
-        "mediaBarons": 0.5325,
-        "mediaDuracaoPartidas": "33.66",
-        "ckpm": "0.85"
+        "mediaTorres": 3.75,
+        "mediaDragoes": 1.195,
+        "mediaBarons": 0.5275,
+        "mediaDuracaoPartidas": "33.23",
+        "ckpm": "0.88"
       },
       {
         "teamName": "Malvinas Rise",
-        "mediaTorres": 3.875,
-        "mediaDragoes": 1.22,
-        "mediaBarons": 0.5625,
-        "mediaDuracaoPartidas": "31.58",
-        "ckpm": "1.04"
+        "mediaTorres": 4.055,
+        "mediaDragoes": 1.305,
+        "mediaBarons": 0.555,
+        "mediaDuracaoPartidas": "31.96",
+        "ckpm": "1.08"
       },
       {
         "teamName": "Globant Emerald",
-        "mediaTorres": 3.155,
-        "mediaDragoes": 1.22,
-        "mediaBarons": 0.4075,
-        "mediaDuracaoPartidas": "35.01",
-        "ckpm": "0.82"
+        "mediaTorres": 3.36,
+        "mediaDragoes": 1.195,
+        "mediaBarons": 0.4175,
+        "mediaDuracaoPartidas": "34.33",
+        "ckpm": "0.80"
       }
     ]
   },
@@ -4174,66 +4259,66 @@
     "teams": [
       {
         "teamName": "Crest Gaming Act Academy",
-        "mediaTorres": 3.34,
-        "mediaDragoes": 0.945,
-        "mediaBarons": 0.395,
-        "mediaDuracaoPartidas": "31.12",
-        "ckpm": "0.88"
+        "mediaTorres": 3.205,
+        "mediaDragoes": 0.885,
+        "mediaBarons": 0.3875,
+        "mediaDuracaoPartidas": "31.36",
+        "ckpm": "0.92"
       },
       {
         "teamName": "DetonatioN FocusMe Academy",
-        "mediaTorres": 2.325,
-        "mediaDragoes": 1.06,
-        "mediaBarons": 0.265,
-        "mediaDuracaoPartidas": "30.51",
-        "ckpm": "1.09"
+        "mediaTorres": 2.105,
+        "mediaDragoes": 1.025,
+        "mediaBarons": 0.2375,
+        "mediaDuracaoPartidas": "30.01",
+        "ckpm": "1.11"
       },
       {
         "teamName": "FENNEL Academy",
-        "mediaTorres": 3.03,
-        "mediaDragoes": 1.14,
-        "mediaBarons": 0.2775,
-        "mediaDuracaoPartidas": "29.77",
-        "ckpm": "0.91"
+        "mediaTorres": 3.07,
+        "mediaDragoes": 1.09,
+        "mediaBarons": 0.295,
+        "mediaDuracaoPartidas": "29.04",
+        "ckpm": "0.99"
       },
       {
         "teamName": "Fukuoka Softbank HAWKS gaming Academy",
-        "mediaTorres": 4.25,
-        "mediaDragoes": 0.78,
-        "mediaBarons": 0.305,
-        "mediaDuracaoPartidas": "26.19",
+        "mediaTorres": 4.225,
+        "mediaDragoes": 0.825,
+        "mediaBarons": 0.325,
+        "mediaDuracaoPartidas": "26.97",
         "ckpm": "1.06"
       },
       {
         "teamName": "AXIZ Academy",
-        "mediaTorres": 1.835,
-        "mediaDragoes": 0.695,
-        "mediaBarons": 0.195,
-        "mediaDuracaoPartidas": "27.51",
-        "ckpm": "1.19"
+        "mediaTorres": 1.85,
+        "mediaDragoes": 0.725,
+        "mediaBarons": 0.2,
+        "mediaDuracaoPartidas": "27.42",
+        "ckpm": "1.21"
       },
       {
         "teamName": "Burning Core Academy",
-        "mediaTorres": 1.445,
-        "mediaDragoes": 0.97,
-        "mediaBarons": 0.305,
-        "mediaDuracaoPartidas": "29.28",
-        "ckpm": "1.02"
+        "mediaTorres": 1.225,
+        "mediaDragoes": 0.885,
+        "mediaBarons": 0.25,
+        "mediaDuracaoPartidas": "28.53",
+        "ckpm": "1.03"
       },
       {
         "teamName": "Sengoku Gaming Academy",
-        "mediaTorres": 3.735,
-        "mediaDragoes": 0.94,
-        "mediaBarons": 0.4125,
-        "mediaDuracaoPartidas": "27.38",
-        "ckpm": "0.93"
+        "mediaTorres": 3.975,
+        "mediaDragoes": 1.1,
+        "mediaBarons": 0.45,
+        "mediaDuracaoPartidas": "27.28",
+        "ckpm": "1.00"
       },
       {
         "teamName": "V3 Esports Academy",
-        "mediaTorres": 2.92,
-        "mediaDragoes": 0.92,
-        "mediaBarons": 0.3425,
-        "mediaDuracaoPartidas": "28.48",
+        "mediaTorres": 3.12,
+        "mediaDragoes": 0.975,
+        "mediaBarons": 0.3575,
+        "mediaDuracaoPartidas": "28.29",
         "ckpm": "0.83"
       }
     ]
@@ -4283,11 +4368,11 @@
       },
       {
         "teamName": "Kawaii Kiwis",
-        "mediaTorres": 3.945,
-        "mediaDragoes": 1.445,
-        "mediaBarons": 0.5,
-        "mediaDuracaoPartidas": "31.19",
-        "ckpm": "1.03"
+        "mediaTorres": 3.57,
+        "mediaDragoes": 1.32,
+        "mediaBarons": 0.4275,
+        "mediaDuracaoPartidas": "32.28",
+        "ckpm": "1.04"
       },
       {
         "teamName": "Oxygen Valiants",
@@ -4307,11 +4392,11 @@
       },
       {
         "teamName": "ECORP",
-        "mediaTorres": 4,
-        "mediaDragoes": 1.32,
-        "mediaBarons": 0.41,
-        "mediaDuracaoPartidas": "31.28",
-        "ckpm": "0.96"
+        "mediaTorres": 3.845,
+        "mediaDragoes": 1.22,
+        "mediaBarons": 0.4075,
+        "mediaDuracaoPartidas": "32.21",
+        "ckpm": "0.99"
       }
     ]
   }
